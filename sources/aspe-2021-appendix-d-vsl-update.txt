@@ -1,0 +1,937 @@
+Appendix D:
+Updating Value per Statistical Life (VSL) Estimates for
+Inflation and Changes in Real Income
+
+April 2021
+
+
+
+
+This appendix supplements the U.S. Department of Health and Human Services (HHS) 2016 Guidelines
+for Regulatory Impact Analysis. It was drafted by Lisa A. Robinson (Harvard T.H. Chan School of Public
+Health) with assistance from Jennifer R. Baxter and William Raich (Industrial Economics, Incorporated). It
+was prepared under the leadership of Amber Jessup and updated under the leadership of Aaron
+Kearsley and Scott Douglas of the HHS Office of the Assistant Secretary for Planning and Evaluation
+(ASPE). Jennifer Baxter was the IEc project director and Mathematica Policy Research was the prime
+contractor. In addition to Amber Jessup, Aaron Kearsley, and Scott Douglas, we thank Trinidad Beleche
+and Steve Murphy (ASPE) as well as Elizabeth Buck, Emily Galloway, Elizabeth Quin, and Kevin Wood
+(U.S. Food and Drug Administration) for providing substantial useful information and helpful comments.
+
+As is the case with the 2016 Guidelines, this appendix represents HHS’s current thinking on the conduct
+of regulatory impact analysis. It does not establish any requirements for any person and is not binding on
+HHS, any HHS agencies, or the public. Analysts may use an alternative approach if it satisfies the
+requirements of the applicable executive orders, statutes, and regulations. To discuss an alternative
+approach, please contact the HHS Office of the Assistant Secretary for Planning and Evaluation.
+
+
+
+
+                                                                                                      D-1
+Table of Contents
+
+ D.1 Background ......................................................................................................................................... 3
+ D.2 Adjusting Estimates for Inflation and Changes in Real Income .......................................................... 5
+    D.2.1 Update the low, central, and high VSL estimates........................................................................ 7
+    D.2.2 Derive low, central, and high constant value per QALY estimates.............................................. 8
+ D.3 Estimates in 2020 Dollars ................................................................................................................. 10
+    D.3.1 VSL estimates in 2020 dollars .................................................................................................... 10
+    D.3.2 Constant value per QALY estimates in 2020 dollars .................................................................. 12
+ D.4 Examples of Application ................................................................................................................... 14
+ References .............................................................................................................................................. 21
+
+
+
+
+                                                                                                                                                       D-2
+Appendix D:
+Updating Value per Statistical Life Estimates
+In 2016, the U.S. Department of Health and Human Services (HHS) issued its Guidelines for Regulatory
+Impact Analysis (hereafter Guidelines) under the leadership of its Assistant Secretary for Planning and
+Evaluation (ASPE) and Analytics Team. In Chapter 3, “Assess Benefits,” the Guidelines discuss the
+approach used to value mortality risk reductions, commonly referred to as the value per statistical life
+(VSL). In addition, that chapter discusses the approach used to value morbidity risk reductions, noting
+that at times a constant value per quality-adjusted life year (QALY) estimate is used in developing these
+estimates. That constant value per QALY also should be used in sensitivity analysis when valuing
+mortality risk reductions, if regulation largely affects the very young or the very old.
+
+The Guidelines recommend low, central, and high VSL estimates for application in HHS regulatory impact
+analyses, which are used to derive recommended low, central, and high value per QALY estimates. As
+noted in the Guidelines, both the VSL and the value per QALY estimates should be updated annually to
+reflect the effects of inflation and changes in real income.
+
+After providing background information, this appendix describes the process for updating these values,
+reports the estimates in 2020 dollars, and illustrates their application. It is intended to aid analysts and
+stakeholders in understanding the calculations and the results. Analysts may also wish to incorporate
+extracts from this appendix into the documentation for individual regulatory analyses. ASPE has created
+an Excel workbook that can be used to explore the calculations in more detail and to update these
+values, which is available upon request.
+
+D.1 Background
+The aim of the HHS Guidelines is to aid analysts in assessing the impacts of proposed and final
+regulations as required under Executive Order 12866 (Clinton 1993) and Executive Order 13563 (Obama
+2011). The HHS Guidelines build on guidance issued by the U.S. Office of Management and Budget
+(OMB) in Circular A-4 (OMB 2003).
+
+As discussed in Guidelines Chapter 3, in benefit-cost analysis the value of an improvement, such as a
+decrease in the risk of dying or becoming ill, is based on individual willingness to pay (WTP). In other
+words, the value is derived from how much money affected individuals would exchange for the risk
+reduction they would achieve, given their budget constraints and preferences for spending on other
+goods and services.
+
+These WTP estimates are typically converted to VSL estimates when valuing expected changes in the
+number of deaths. The VSL terminology is frequently misinterpreted, however. VSL is not the value that
+the analyst, the researcher, or the government places on saving an individual from certain death. Rather
+it reflects research on the extent to which individuals are each willing to exchange money for small
+changes in their own risks within a defined time period. We make such decisions frequently in our day-
+to-day lives, for example by choosing a safer job or purchasing a safer car.
+
+
+                                                                                                           D-3
+If on average a member of the U.S. population is willing to pay $1,000 for a 1 in 10,000 reduction in their
+own risk in a given year, the equivalent VSL can be calculated by dividing individual WTP by the risk
+change:
+
+                                          $1,000 WTP ÷ 1/10,000 risk change
+                                                 = $10.0 million VSL
+
+In other words, a population-average VSL of $10 million indicates that the typical individual is willing to
+pay $1,000 to decrease his or her chance of dying in a given year by 1 in 10,000.
+
+Individual WTP also can be summed across those affected. If each of 10,000 individuals is willing to pay
+$1,000 for a 1 in 10,000 reduction in his or her chance of dying in a given year, the total expected value
+of that risk reduction is $10 million (10,000 x $1,000) and one less person would be expected to die that
+year (10,000 x 1/10,000).
+
+The conceptual framework for valuing nonfatal illnesses or injuries is the same as the framework for
+fatalities. Estimates of WTP for a change in morbidity risk are converted into estimates of the value per
+statistical case, using the same approach.
+
+For valuing changes in expected deaths, the Guidelines recommend low, central, and high VSL estimates.
+For valuing changes in expected cases of nonfatal illness, it is not possible to recommend estimates for
+each possible type of illness. These policies potentially affect a wide range of nonfatal health conditions
+that vary in severity, duration, and other characteristics.
+
+The Guidelines instead provide a framework for estimating these values. Analysts should first review the
+literature to determine whether suitable WTP estimates of reasonable quality are available for the
+morbidity risk reductions of concern. If not, the Guidelines recommend that analysts use monetized
+quality-adjusted life years (QALYs) as a proxy. In this case, a constant value per QALY is multiplied by the
+expected change in health-related quality of life (HRQL) to estimate the value per statistical case.
+
+This constant value per QALY is derived from HHS’ recommended VSL estimates. 1 Its derivation assumes
+that VSL reflects the present value of future life years for the average individual included in the
+underlying studies, adjusting for the expected quality of life at each age. 2 This constant value per QALY
+can also be used in sensitivity analysis to value changes in life expectancy when mortality risk reductions
+disproportionately affect the very young or the very old, as discussed in more detail in Guidelines
+Chapter 3.
+
+
+
+
+1
+ Regardless of whether WTP or monetized QALY estimates are used for valuation, costs that are not included in these
+estimates can be added to reflect the total impact of the health condition on social welfare. These costs may include, for
+example, medical costs covered by insurance and caregiving provided by friends and family. See Guidelines Chapter 3 for more
+discussion.
+2
+ As discussed in Guidelines Chapter 3, this approach relies on several simplifying assumptions. The Guidelines explore these
+assumptions in more detail, including their relationship to theoretical expectations and empirical research.
+
+
+
+                                                                                                                           D-4
+Both the VSL estimates and the value per QALY derived from these estimates should be updated each
+year for inflation and real income growth. We discuss the steps involved in this calculation and report
+the values in 2020 dollars in the following sections, then illustrate their application.
+
+D.2 Adjusting Estimates for Inflation and Changes in Real Income
+To estimate VSL, HHS currently relies on the results of a criteria-driven review reported in Robinson and
+Hammitt (2016). That review provides population-average values in 2013 dollars at 2013 income levels,
+which range from $4.2 million to $13.7 million with a mid-point of $9.0 million. HHS uses these values as
+the basis of its low, high, and central VSL estimates respectively.
+
+Applying these VSL estimates in HHS regulatory impact analysis requires updating them for inflation and
+for changes in real income. The inflation adjustment reflects economy-wide changes in prices; i.e.,
+changes in the total amount of goods and services a dollar can buy (see Guidelines Chapter 5). In
+contrast, the adjustment for real income reflects the changes in the resources individuals have available
+to spend on risk reductions and other goods and services. If real income increases, individual WTP per
+unit of risk reduction and hence the VSL are also expected to increase.
+
+As discussed in Guidelines Chapter 3, HHS assumes that VSL increases at the same rate as real income,
+i.e., that VSL income elasticity is 1.0. This means, for example, that VSL would increase 5 percent if
+income increases 5 percent.
+
+Presumably, an individual’s WTP for mortality risk reductions reflects their current and expected future
+income as of the year in which the payment would be made, including their ability to borrow,
+preferences for saving and spending, and current and future expected needs. 3 The idea is similar to how
+we might think about any current or future purchase. For example, if I want to buy a new car five years
+hence rather than today, presumably I would consider whether my income as well as other factors will
+differ then from current levels.
+
+Guidelines Chapter 5 indicates that VSL estimates should first be adjusted for inflation to the dollar year
+used in the regulatory analysis as well as for changes in real income. Because the annual data needed for
+these adjustments are not available until after the end of the calendar year, analysts rely on estimates
+from the year prior to the year in which the analysis is conducted or earlier. This means, for example,
+that 2020 is likely to be used as the dollar year for an analysis initiated in the year 2021.
+
+Guidelines Chapter 2 notes that regulatory analyses typically predict impacts over 10 to 20 years unless
+the regulation has an earlier sunset date. To avoid the need to estimate future inflation, Guidelines
+Chapter 5 indicates that the same dollar year should be used throughout the analysis. In other words, if
+
+
+
+
+3
+  Ideally, the VSL income adjustment would be based on lifetime wealth rather than current earnings and would consider all
+income sources. The VSL studies from which the base values and income elasticities are derived generally focus on earnings
+rather than wealth or total income, however, because earnings are more easily measured. Thus the income adjustment
+discussed in this appendix also uses earnings in the calculations.
+
+
+
+                                                                                                                         D-5
+2020 is the dollar year, and the analysis predicts impacts from 2023 through 2032, impacts in each year
+would be expressed in 2020 dollars.
+
+The base year usually differs from this dollar year. The base year is the year in which regulatory impacts
+are likely to first accrue. In most cases, it will be the year in which the regulation goes into effect. In
+some cases, the base year may be earlier if regulated entities begin compliance activities in advance; in
+other cases, it may be later if regulated entities can defer compliance.
+
+The base year is used when calculating present values. To continue the example, an analysis conducted
+in 2021 may use 2020 as the dollar year and 2023 as the base year when calculating present values,
+assuming 2023 is when the regulatory requirements first apply.
+
+This means the VSL estimates should be updated to the appropriate dollar year (2020 in this example).
+That value would not be subsequently adjusted for predicted inflation (over the 2020 to 2032 time
+period in the example). The VSL estimates should be adjusted for predicted subsequent changes in real
+income in most cases, however. As noted earlier, presumably an individual’s WTP for risk reductions
+reflects his or her expected income as of the year in which the payment is made. In other words, the VSL
+estimates applied in the year 2032 would be expressed in 2020 dollars but would be adjusted for
+expected changes in real income between 2020 and 2032.
+
+In some cases, this adjustment for future changes in real income may be too small to noticeably affect
+the analytic results, given that real income grows at a relatively small rate (typically between 1 and 2
+percent per year). If the effect of adjusting for future changes in real income beyond the base year is
+negligible, analysts may choose to not make this adjustment to simplify the presentation. Continuing the
+above example, in such cases the VSL for 2023 base year would be used in future years.
+
+Note that at times the change in risk does not occur in the same year that the costs accrue; e.g., if
+actions taken to reduce exposure do not manifest as changes in risk until several years in the future. To
+estimate the effects of this delay on individual WTP, discounting is used to account for the timing of the
+risk reductions, applying the same discount rates as used elsewhere in the analysis. This adjustment is
+discussed in more detail in section D.4.
+
+Once VSL estimates are calculated for the appropriate year, a constant value per QALY can be derived
+for use in estimating the value of morbidity risk reductions and in sensitivity analysis of the value of
+mortality risk reductions, as discussed earlier. The resulting adjustments thus include two major
+components.
+
+    1. Update the low, central, and high VSL estimates.
+    2. Derive low, central, and high constant value per QALY estimates.
+
+We describe each step below, using 2020 as the dollar year and assuming the analysis predicts impacts
+through the year 2032 as an example. The subsequent sections provide the results and examples of their
+application.
+
+
+
+
+                                                                                                        D-6
+        D.2.1 Update the low, central, and high VSL estimates
+We first adjust the VSL estimates to the specified dollar year (step 1a), accounting for past inflation and
+changes in real income. We then adjust the VSL estimates for future years (step 1b), accounting for
+predicted changes in real income.
+
+Step 1a: Adjust VSL estimates to the specified dollar year. Figure D.1 provides the equation for
+updating the low, central, and high VSL estimates to the appropriate dollar year. 4
+
+Figure D.1. Step 1a, Adjust VSL estimates to the specified dollar year
+
+                                                               VSL(year y) =
+             VSL(year x)*(inflation index(year y)/inflation index(year x)) * (real income(year y)/real income(year x)) elasticity
+                                                                                                                             (equation 1)
+    Where:
+       • VSL(year y) = the value of mortality risk reductions in the specified dollar year (e.g., 2020).
+       • VSL(year x) = the value of mortality risk reductions in the reference year (2013, from Robinson and
+           Hammitt 2016).
+       • Inflation index = Consumer Price Index for All Urban Consumers (CPI-U). 5
+       • Real income = Current Population Survey (CPS) data on weekly earnings. 6
+       • Income elasticity = the proportional change in VSL given a change in income, 1.0 from Chapter 3 of the
+           HHS Guidelines. 7
+
+
+
+Step 1b: Adjust VSL estimates for future changes in real income. The low, central, and high VSL
+estimates derived under Step 1a can then be adjusted for changes in real income in future years. For this
+step, the inflation adjustment drops out of the equation. The source of the income data is different in
+this case because predicted rather than actual values are needed.
+
+
+
+
+4
+ For consistency with the underlying data sources, in equation 1 we express inflation and the change in real income as ratios.
+The HHS Guidelines instead express these changes as annual rates, as in equation 2.
+5
+    For more information on the CPI, see https://www.bls.gov/cpi/.
+6
+    For more information on the CPS, see https://www.census.gov/programs-surveys/cps.html.
+7
+ Because an income elasticity of 1.0 means that VSL changes at the same rate as income, the elasticity can be dropped out of
+the equation. However, we include it here to clarify the relationship to the Guidelines and to the VSL literature more generally.
+
+
+
+                                                                                                                                      D-7
+Figure D.2. Step 1b, Adjust VSL estimates for future changes in real income
+
+                                                               VSL(year z) =
+                                        VSL(year y) * (1+real income growth rate)elasticity*(z-y)
+                                                                                                    (equation 2)
+    Where:
+       • VSL(year z) = the value of mortality risk reductions in a future year (e.g., 2023).
+       • VSL(year y) = the value of mortality risk reductions in the specified dollar year (e.g., 2020).
+       • Real income growth rate = predicted annual rate from the Congressional Budget Office (CBO) long-
+           term growth forecast. 8
+       • Income elasticity = the proportional change in VSL given a change in income, 1.0 from Guidelines
+           Chapter 3.
+
+
+
+The resulting estimates can then be used to value mortality risk reductions in each year. This calculation
+involves multiplying the expected change in deaths in each year by the appropriate VSL, as illustrated in
+section D.4.
+
+        D.2.2 Derive low, central, and high constant value per QALY estimates
+We next derive constant value per QALY estimates from the VSL estimates for the specified dollar year
+(step 2a), based on the VSL estimates from Step 1a. We then adjust these estimates for future years to
+account for predicted changes in real income (step 2b), based on the VSL estimates from Step 1b.
+
+Step 2a: Derive constant value per QALY estimates for the specified dollar year. The VSL estimates can
+then be converted to low, central, and high constant values per QALY. Based on data reported in the
+studies used to develop the VSL estimates, analysts should assume that the average individual in the
+VSL studies is 40 years of age. Estimating expected QALYs requires combining data on conditional
+survival rates for each subsequent year of age with data on health-related quality of life (HRQL) at each
+age. Expected QALYs are then discounted to their present value using the same discount rates as applied
+elsewhere in the analysis (3 percent and 7 percent, as discussed in Guidelines Chapter 5). 9
+
+
+
+
+8
+    CBO publications are available here: https://www.cbo.gov/data/publications-with-data-files.
+9
+    Throughout this appendix, we do not discount impacts that occur in the initial year.
+
+
+
+                                                                                                             D-8
+Figure D.3. Step 2a, Derive constant value per QALY estimates for the specified dollar year
+                                                                                   𝑉𝑉𝑉𝑉𝑉𝑉(𝑦𝑦𝑦𝑦𝑦𝑦𝑦𝑦 𝑦𝑦)
+                               𝑣𝑣𝑣𝑣𝑣𝑣𝑣𝑣𝑣𝑣(𝑦𝑦𝑦𝑦𝑦𝑦𝑦𝑦 𝑦𝑦) =
+                                                            ∑ 𝑃𝑃𝑃𝑃(𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠 𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟(𝑎𝑎𝑎𝑎𝑎𝑎 𝑎𝑎) ∗ 𝐻𝐻𝐻𝐻𝐻𝐻𝐻𝐻(𝑎𝑎𝑎𝑎𝑎𝑎 𝑎𝑎) )
+
+                                                                                                                                  (equation 3)
+ Where:
+    • VSL(year y) = the value of mortality risk reductions in the specified dollar year (e.g., 2020).
+    • vQALY(year y) = the constant value per QALY in the specified dollar year (e.g., 2020).
+    • PV = present value, using an annual real discount rate of 3 or 7 percent.
+    • Survival rate(age a) = likelihood of survival conditional on reaching each year of age from age 40 onwards,
+        from Centers for Disease Control and Prevention (CDC) life tables. 10
+    • HRQL(age a) = health-related quality of life by year of age, for men and women combined, from Hanmer
+        et al. (2006), Table 3, U.S. EQ-5D estimates.
+
+
+
+Step 2b: Adjust the value per QALY estimates for future changes in real income. The low, central, and
+high value per QALY estimates derived under Step 2a can then be adjusted for changes in real income in
+future years (e.g., subsequent to the year 2020). With the exception of the data on future income, the
+inputs into the calculations are the same as under step 2a. Analysts should use the same survival rates
+and HRQL estimates in all years. This means the value per QALY will grow at the same rate as the VSL;
+the estimate of future QALYs for an individual age 40 will not change from year to year.
+
+As a result, the constant value per QALY can be most easily updated by dividing the VSL for each year
+(from step 1b) by this estimate of future QALYs, discounted using the same rates. The equation is
+provided in Figure D.4; it is identical to the equation in Figure D.3 except for the change in year.
+
+Figure D.4. Step 2b, Adjust the value per QALY estimates for future changes in real income
+                                                                                    𝑉𝑉𝑉𝑉𝑉𝑉(𝑦𝑦𝑦𝑦𝑦𝑦𝑦𝑦 𝑧𝑧)
+                                𝑣𝑣𝑣𝑣𝑣𝑣𝑣𝑣𝑣𝑣(𝑦𝑦𝑦𝑦𝑦𝑦𝑦𝑦 𝑧𝑧) =
+                                                            ∑ 𝑃𝑃𝑃𝑃(𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠 𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟(𝑎𝑎𝑎𝑎𝑎𝑎 𝑎𝑎) ∗ 𝐻𝐻𝐻𝐻𝐻𝐻𝐻𝐻(𝑎𝑎𝑎𝑎𝑎𝑎 𝑎𝑎) )
+
+                                                                                                      (equation 4)
+ Where:
+    • VSL(year z) = the value of mortality risk reductions in a future year (e.g., 2032).
+    • vQALY(year z) = the constant value per QALY in a future year (e.g., 2032).
+    • PV = present value, using an annual real discount rate of 3 or 7 percent.
+    • Survival rate(age a) = likelihood of survival conditional on reaching each year of age from age 40 onwards,
+        from Centers for Disease Control and Prevention (CDC) life tables.
+    • HRQL = health-related quality of life by year of age, for men and women combined, from Hanmer et al.
+        (2006), Table 3, U.S. EQ-5D estimates.
+
+
+
+These constants can then be multiplied by the expected change in QALYs to estimate the value per
+statistical case for cases of nonfatal illnesses (or injuries), where the expected change in QALYs is equal
+to the change in HRQL associated with the illness multiplied by its duration. They can also be used be
+
+
+10
+     For more information on CDC’s life tables, see https://www.cdc.gov/nchs/nvss/life-expectancy.htm#publications.
+
+
+
+                                                                                                                                           D-9
+used in sensitivity analysis to value changes in life expectancy when mortality risk reductions
+disproportionately affect the very young or the very old, as discussed in more detail in Guidelines
+Chapter 3 and illustrated below in Section D.4.
+
+D.3 Estimates in 2020 Dollars
+In this section, we report the results of applying these steps in 2020 dollars. For ease of presentation, we
+round the results. Analysts may wish to use the unrounded values in their calculations, which can be
+easily copied from the Excel workbook developed by ASPE.
+
+     D.3.1 VSL estimates in 2020 dollars
+Step 1a: Adjust VSL estimates to the specified dollar year. For this calculation, we apply equation 1
+from Figure D.1 to estimate VSL in 2020 dollars at 2020 income levels. As reported in Table D.1, the
+input data include the following.
+
+     •   The VSL in the reference year (2013) includes low, central, and high estimates of $4.2 million,
+         $9.0 million, and $13.7 million.
+     •   The CPI-U increased from 232.957 in 2013 to 258.811 in 2020, about a 1.11 percent increase. 11
+     •   The CPS indicates that real earnings increased from about $333 to $380 per week between 2013
+         and 2020, a 14.1 percent increase. 12
+     •   VSL income elasticity is 1.0.
+
+Using these input values, the 2020 VSL estimates range from $5.3 million to $17.4 million, with a central
+estimate of $11.4 million. These estimates can be applied to mortality risk reductions that occur in 2020
+without further adjustment.
+
+Table D.1. VSL estimates updated for inflation and real income growth from 2013 to 2020a
+          VSL                          2013 estimate (2013 dollars)b                        2020 estimate (2020 dollars)
+                   Low                           $4.2 million                                        $5.3 million
+                Central                          $9.0 million                                       $11.4 million
+                  High                          $13.7 million                                       $17.4 million
+a. All calculations use the same number of significant digits as reported in the source data but are rounded for presentation
+purposes.
+b. From Robinson and Hammitt (2016)
+
+Step 1b: Adjust VSL estimates for future changes in real income. For changes in mortality risks expected
+to occur in subsequent years, we use equation 2 in Figure D.2 to adjust for predicted changes in real
+income. We assume real income will grow by 0.8 percent per year, based on the CBO (2021) estimate of
+the growth in real earnings per worker for the period 2021-2051. Because we assume VSL income
+elasticity is 1.0, the change in the VSL is the same as the change in income: a 0.8 percent increase per
+
+
+11
+   CPI-U reported annual values downloaded from https://www.bls.gov/cpi/data.htm using the “one screen data search” option
+on April 1, 2021, series CUUR0000SA0,CUUS0000SA0.
+12
+   CPS data downloaded from https://www.bls.gov/webapps/legacy/cpswktab2.htm on April 1, 2021, series LEU0252881600.
+
+
+
+                                                                                                                           D-10
+year. The estimate for the appropriate year can then be applied to the expected change in deaths
+occurring in that year. Table D.2 presents yearly VSL estimates for the 2020 to 2049 time period in 2020
+dollars.
+
+Table D.2. VSL estimates for changes in mortality risks occurring in 2020 through 2049 (2020 dollars)a,b
+        Year                  Low VSL Estimate                 Central VSL Estimate                 High VSL Estimate
+        2020                     $5.3 million                       $11.4 million                      $17.4 million
+        2021                     $5.4 million                       $11.5 million                      $17.5 million
+        2022                     $5.4 million                       $11.6 million                      $17.6 million
+        2023                     $5.5 million                       $11.7 million                      $17.8 million
+        2024                     $5.5 million                       $11.8 million                      $17.9 million
+        2025                     $5.5 million                       $11.9 million                      $18.1 million
+        2026                     $5.6 million                       $12.0 million                      $18.2 million
+        2027                     $5.6 million                       $12.1 million                      $18.4 million
+        2028                     $5.7 million                       $12.2 million                      $18.5 million
+        2029                     $5.7 million                       $12.3 million                      $18.7 million
+        2030                     $5.8 million                       $12.4 million                      $18.8 million
+        2031                     $5.8 million                       $12.5 million                      $19.0 million
+        2032                     $5.9 million                       $12.6 million                      $19.1 million
+        2033                     $5.9 million                       $12.7 million                      $19.3 million
+        2034                     $6.0 million                       $12.8 million                      $19.4 million
+        2035                     $6.0 million                       $12.9 million                      $19.6 million
+        2036                     $6.0 million                       $13.0 million                      $19.7 million
+        2037                     $6.1 million                       $13.1 million                      $19.9 million
+        2038                     $6.1 million                       $13.2 million                      $20.0 million
+        2039                     $6.2 million                       $13.3 million                      $20.2 million
+        2040                     $6.2 million                       $13.4 million                      $20.4 million
+        2041                     $6.3 million                       $13.5 million                      $20.5 million
+        2042                     $6.3 million                       $13.6 million                      $20.7 million
+        2043                     $6.4 million                       $13.7 million                      $20.9 million
+        2044                     $6.4 million                       $13.8 million                      $21.0 million
+        2045                     $6.5 million                       $13.9 million                      $21.2 million
+        2046                     $6.6 million                       $14.0 million                      $21.4 million
+        2047                     $6.6 million                       $14.3 million                      $21.5 million
+        2048                     $6.7 million                       $14.4 million                      $21.7 million
+        2049                     $6.7 million                       $14.4 million                      $21.9 million
+a. All calculations use the same number of significant digits as reported in the source data but are rounded for presentation
+purposes.
+b. 2020 VSL estimates From Table D.1; 2021 to 2049 estimates reflect 0.8 percent increase in real income per year, based on
+CBO (2021).
+
+
+
+
+                                                                                                                          D-11
+        D.3.2 Constant value per QALY estimates in 2020 dollars
+Step 2a: Derive a constant value per QALY for the specified dollar year. To derive a constant value per
+QALY for the appropriate dollar year, we apply equation 3 from Figure D.3 to VSL estimates for that
+year. As noted earlier, this process requires incorporating estimates of population-average survival rates
+and HRQL conditional on year of age. We use the most recent life tables from CDC (Arias and Xu 2020)
+to estimate survival rates and Hanmer et al. (2006) to estimate HRQL for each year of age. We apply the
+same discount rates as used elsewhere in the analysis to estimate the present value of future QALYs;
+i.e., 3 percent and 7 percent. 13
+
+Using a 3 percent discount rate, the present value of future QALYs on average for an individual age 40 is
+19.6 QALYs; using a 7 percent rate, the present value of future QALYs on average for an individual age 40
+is 11.8 QALYs. 14
+
+Table D.3 presents the results for 2020. These values should be used when estimating the value of
+impacts that occur in that year as appropriate; i.e., when monetized QALYs are used to value morbidity
+risk reductions and when sensitivity analysis is needed to address mortality risk reductions that
+disproportionately affect the very young or the very old. 15
+
+Table D.3. Value per QALY estimates for impacts occurring in 2020 (2020 dollars)a
+
+                                                                     Value per QALYc                     Value per QALYc
+                                    VSL Estimateb
+                                                                  3 percent discount rate             7 percent discount rate
+            Low                      $5.3 million                         $270,000                           $450,000
+          Central                   $11.4 million                         $580,000                           $970,000
+           High                     $17.4 million                         $880,000                          $1,470,000
+a. All calculations use the same number of significant digits as reported in the source data but are rounded for presentation
+purposes.
+b. VSL estimates from Table D.1.
+c. Calculated based on the present value of future QALYs on average for an individual age 40; 19.6 QALYs using a 3 percent
+discount rate, and 11.8 QALYs using a 7 percent discount rate, based on Arias and Xu (2020) and Hanmer et al. (2006).
+
+Step 2b: Adjust the value per QALY estimates for future changes in real income. For subsequent years,
+we use equation 4 from Figure D.4 to adjust the value per QALY for predicted growth in real income,
+dividing the VSL estimates for each year by the expected QALYs: 19.6 QALYs at a 3 percent discount rate
+or 11.8 QALYs at a 7 percent rate.
+
+Because we again assume real income will grow by 0.8 percent per year and apply a VSL income
+elasticity of 1.0, the change in the constant value per QALY is the same as the change in income: 0.8
+
+
+13
+     The rationale for discounting to reflect time preferences is discussed in more detail in Guidelines Chapter 5.
+14
+     Results rounded for presentation purposes; unrounded results are used in all calculations.
+15
+  When an effect that would occur in a given year (i.e., 2020 in this case) impacts future year health (or longevity), the future
+year impacts should be discounted to the year in which the effect occurs. For example, if a regulation is expected to avert 10
+cases of a chronic disease in the year 2023, and that disease is expected to impair the health of each affected individual for the
+subsequent 40 years, the present value of these future effects over the 40 year period would be discounted to year 2023 when
+estimating the value per case.
+
+
+
+                                                                                                                             D-12
+percent per year. The tables below present yearly values in 2020 dollars; Table D.4a reports the results
+using a 3 percent discount rate and Table D.4b reports the results using a 7 percent discount rate. The
+estimate for the appropriate year can then be applied when monetized QALYs are used to value
+morbidity risk reductions and when sensitivity analysis is needed to address mortality risk reductions
+that disproportionately affect the very young or the very old.
+
+Table D.4a. Value per QALY estimates for risk changes occurring in 2020 through 2049 (2020 dollars, 3 percent
+discount rate)a
+                                Value per QALY                    Value per QALY                    Value per QALY
+         Year                        Low                              Central                            High
+                           (3 percent discount rate)         (3 percent discount rate)         (3 percent discount rate)
+         2020                      $270,000                          $580,000                          $880,000
+         2021                      $270,000                          $590,000                          $890,000
+         2022                      $280,000                          $590,000                          $900,000
+         2023                      $280,000                          $590,000                          $910,000
+         2024                      $280,000                          $600,000                          $910,000
+         2025                      $280,000                          $600,000                          $920,000
+         2026                      $280,000                          $610,000                          $930,000
+         2027                      $290,000                          $610,000                          $930,000
+         2028                      $290,000                          $620,000                          $940,000
+         2029                      $290,000                          $620,000                          $950,000
+         2030                      $290,000                          $630,000                          $960,000
+         2031                      $300,000                          $630,000                          $970,000
+         2032                      $300,000                          $640,000                          $970,000
+         2033                      $300,000                          $640,000                          $980,000
+         2034                      $300,000                          $650,000                          $990,000
+         2035                      $310,000                          $650,000                         $1,000,000
+         2036                      $310,000                          $660,000                         $1,000,000
+         2037                      $310,000                          $670,000                         $1,010,000
+         2038                      $310,000                          $670,000                         $1,020,000
+         2039                      $320,000                          $680,000                         $1,030,000
+         2040                      $320,000                          $680,000                         $1,040,000
+         2041                      $320,000                          $690,000                         $1,050,000
+         2042                      $320,000                          $690,000                         $1,050,000
+         2043                      $330,000                          $700,000                         $1,060,000
+         2044                      $330,000                          $700,000                         $1,070,000
+         2045                      $330,000                          $710,000                         $1,080,000
+         2046                      $330,000                          $710,000                         $1,090,000
+         2047                      $340,000                          $720,000                         $1,100,000
+         2048                      $340,000                          $730,000                         $1,110,000
+         2049                      $340,000                          $730,000                         $1,110,000
+a. All calculations use the same number of significant digits as reported in the source data but are rounded for presentation
+purposes.
+b. 2020 value per QALY estimates from Table D.2; 2021 to 2049 estimates reflect 0.8 percent change in income per year, based
+on CBO (2021).
+
+
+
+
+                                                                                                                        D-13
+Table D.4b. Value per QALY estimates for risk changes occurring in 2020 through 2049 (2020 dollars, 7 percent
+discount rate)a
+                                Value per QALY                    Value per QALY                    Value per QALY
+         Year                        Low                              Central                            High
+                           (7 percent discount rate)         (7 percent discount rate)         (7 percent discount rate)
+         2020                      $450,000                          $970,000                         $1,470,000
+         2021                      $450,000                          $970,000                         $1,480,000
+         2022                      $460,000                          $980,000                         $1,500,000
+         2023                      $460,000                          $990,000                         $1,510,000
+         2024                      $470,000                         $1,000,000                        $1,520,000
+         2025                      $470,000                         $1,010,000                        $1,530,000
+         2026                      $470,000                         $1,010,000                        $1,540,000
+         2027                      $480,000                         $1,020,000                        $1,560,000
+         2028                      $480,000                         $1,030,000                        $1,570,000
+         2029                      $480,000                         $1,040,000                        $1,580,000
+         2030                      $490,000                         $1,050,000                        $1,590,000
+         2031                      $490,000                         $1,060,000                        $1,610,000
+         2032                      $500,000                         $1,060,000                        $1,620,000
+         2033                      $500,000                         $1,070,000                        $1,630,000
+         2034                      $500,000                         $1,080,000                        $1,650,000
+         2035                      $510,000                         $1,090,000                        $1,660,000
+         2036                      $510,000                         $1,100,000                        $1,670,000
+         2037                      $520,000                         $1,110,000                        $1,690,000
+         2038                      $520,000                         $1,120,000                        $1,700,000
+         2039                      $520,000                         $1,120,000                        $1,710,000
+         2040                      $530,000                         $1,130,000                        $1,730,000
+         2041                      $530,000                         $1,140,000                        $1,740,000
+         2042                      $540,000                         $1,150,000                        $1,750,000
+         2043                      $540,000                         $1,160,000                        $1,770,000
+         2044                      $550,000                         $1,170,000                        $1,780,000
+         2045                      $550,000                         $1,180,000                        $1,800,000
+         2046                      $560,000                         $1,190,000                        $1,810,000
+         2047                      $560,000                         $1,200,000                        $1,820,000
+         2048                      $560,000                         $1,210,000                        $1,840,000
+         2049                      $570,000                         $1,220,000                        $1,850,000
+a. All calculations use the same number of significant digits as reported in the source data but are rounded for presentation
+purposes.
+b. 2020 value per QALY estimates from Table D.2; 2021 to 2049 estimates reflect 0.8 percent change in income per year, based
+on CBO (2021).
+
+D.4 Examples of Application
+In this section, we provide examples of the application of the values derived in Section D.3 above. For
+simplicity, in these calculations we focus on the central values provided in Tables D.1 through D.4,
+applying a 3 percent discount rate where relevant. In addition, analysts should test the sensitivity of the
+results to the low and high values provided in those tables and present the results using a 7 percent
+
+
+
+
+                                                                                                                        D-14
+discount rate (see Guidelines Chapters 5 and 8). 16 The final example includes a table that can be used to
+summarize the results using the full range of parameter estimates.
+
+An important issue throughout these examples is the need to identify the year for which the values are
+being estimated. In the previous section, we report values for risk reductions that occur in the
+designated year. In this section, we include examples that adjust these values to approximate the effect
+of selected characteristics of the risk change. The VSL used as the basis of these adjustments should be
+the estimate for the year for which WTP is being estimated (conceptually, the year in which the payment
+would be made), reflecting expected real income in that year. This year is presumably the same year
+that the regulatory costs associated with the risk change are incurred. In the examples, we use the term
+“analytic year” to refer to the year in which the costs and benefits accrue.
+
+These examples are not intended to be comprehensive; different regulations will pose different
+challenges. Analysts should consult with ASPE and other experts in determining how to best apply these
+estimates within a particular context. As noted earlier, ASPE has developed an Excel workbook to aid in
+the calculations of the estimates reported previously in section D.3, which is available upon request.
+That workbook also includes data that can be used as inputs into the calculations described below;
+however, these calculations generally require developing a supplementary worksheet tailored to the
+particular context.
+
+In these examples, we assume the regulation will become effective in 2023 and remain in effect for five
+years; the analysis therefore covers 2023 through 2027, and 2023 is the base year for estimating present
+values. 17 We use the term “analytic year” to reference the year in which the impacts accrue; 2023
+through 2027 in the example. All values are reported in 2020 dollars. As in the preceding tables, we use
+unrounded values in the calculations but present rounded values for ease of presentation and
+interpretation.
+
+1. Mortality risk reductions, base case: In this case, we assume that the regulation reduces the number
+of expected deaths by 100 in each year. The calculations are straightforward. We simply multiply the
+number of cases in each year by the VSL for that year. We then calculate the present value as of the
+base year (2023) using a 3 percent discount rate.
+
+
+
+
+16
+  The implementation of this sensitivity analysis will depend on the context, including the extent to which uncertainty in the
+estimates of the change in expected deaths and cases of illness are quantified and the importance of the VSL estimates to the
+overall results (e.g., in determining whether net benefits are positive). Guidelines Chapter 6 discusses the assessment of
+uncertainty in more detail.
+17
+     As noted earlier, we do not discount impacts that occur in the initial year.
+
+
+
+                                                                                                                          D-15
+Table D.5. Example, Mortality risk reductions, base case (2020 dollars)
+
+     Analytic Year              Deaths Averted                     VSL, Analytic Yeara                     Total Valueb
+         2023                          100                            $11.7 million                        $1.17 billion
+         2024                          100                            $11.8 million                        $1.18 billion
+         2025                          100                            $11.9 million                        $1.19 billion
+         2026                          100                            $12.0 million                        $1.20 billion
+         2027                          100                            $12.1 million                        $1.21 billion
+                Total                  500                               Net present value    c
+                                                                                                           $5.60 billion
+a. VSL central estimates (see Table 2); all calculations based on unrounded values then rounded for presentation purposes.
+b. VSL estimate for analytic year multiplied by deaths averted.
+c. 3 percent discount rate.
+
+2. Mortality risk reductions, cessation lag. In this example, we again assume that, in each year of
+implementation, the regulation reduces the number of expected deaths by 100. However, we assume
+there is a significant delay between when the costs are incurred and when the risk reduction becomes
+manifest, as is the case with latent illnesses such as many cancers. Analysts should not necessarily
+assume that the latency period (the lag between increased exposure and increased deaths or illnesses)
+is the same as the cessation lag (the lag between decreased exposure and decreased deaths or
+illnesses); these lags may differ in some cases.
+
+We use discounting in this context to reflect time preferences; generally individuals prefer to receive
+benefits sooner rather than later so are willing to pay less for improvements that accrue in the future.
+This means individual preferences for spending in the current year to reduce risks in the same year are
+likely to differ from preferences for spending in the current year to reduce risks in the future. The
+empirical evidence on individual WTP for future risk reductions is limited and inconsistent, however.
+Discounting is simply used to approximate the effects of this time lag.
+
+This is a different adjustment than the adjustments for changes in real income that are the focus of the
+previous sections. The idea in this case is that regulatory costs incurred in a designated year lead to a
+risk change sometime in the future. The adjustment for changes in real income discussed earlier instead
+assumes that both the costs and the risk change occur in the same future year. This means that for the
+cessation lag, we use the VSL estimate for the year in which the costs would be incurred.
+
+To illustrate, in the previous example we apply a VSL of $11.7 million for the risk changes that occur in
+2023, assuming that the risk changes result from the costs incurred in that year. 18 If instead there is a
+three-year lag between when the costs are incurred and when the risk change manifests, we would still
+use a VSL estimate of $11.7 million but would discount it to reflect the three-year delay.
+
+
+
+18
+   In reality, the risk reductions may not all accrue within the same year that the associated costs are incurred; e.g., some may
+accrue in the following year especially in cases where the death results from illness rather than injury. This type of short lag is
+difficult to estimate and not likely to noticeably affect the analytic results, however. The cessation lag adjustment is intended
+for application in those cases where the scientific evidence suggests that the lag period is likely to be relatively long; i.e.,
+measured in years rather than in days, weeks, or months.
+
+
+
+                                                                                                                               D-16
+This calculation involves estimating the present value in 2023 of a future payment of $11.7 million in
+2026. 19 In other words, the income levels in 2023, not 2026, are relevant to calculating the value, since
+2023 is when the payment would be made. Again, the idea is simply to use discounting to approximate
+the reduction in value associated with the delay in when the risk reduction accrues.
+
+We illustrate the results in Table D.6 below assuming a three-year cessation lag. We use the term
+“analytic year” to refer to the year in which the costs are incurred and the term “VSL, with cessation lag”
+to reflect the effects of discounting the VSL estimate for that year to reflect the three-year lag. 20 The
+“deaths averted” column thus reflects the change in expected deaths three years in the future. We then
+multiply the number of cases in each year by the VSL estimate adjusted for cessation lag in that year to
+estimate the total value. We again calculate the present value as of the base year (2023), using a 3
+percent discount rate throughout.
+
+Table D.6. Example, Mortality Risk Reductions, 3-year cessation lag (2020 dollars)a
+
+     Analytic Yearb            Deaths Avertedc                 VSL, with cessation lagd                   Total Valuee
+         2023                         100                            $10.7 million                        $1.07 billion
+         2024                         100                            $10.8 million                        $1.08 billion
+         2025                         100                            $10.9 million                        $1.09 billion
+         2026                         100                            $11.0 million                        $1.10 billion
+         2027                         100                            $11.0 million                        $1.11 billion
+                Total                 500                               Net present value                $5.12 billion
+a. All results reported using a 3 percent discount rate; calculations based on unrounded values then rounded for presentation
+purposes.
+b. The analytic year is the year in which costs are incurred.
+c. The deaths averted are the expected changes in deaths associated with the analytic year. In the example, this expected
+change in deaths would occur three years in the future.
+d. The VSL for the analytic year (see Table D.2) discounted over the three-year lag period at a 3 percent discount rate; see text
+for more discussion.
+e. VSL estimate with cessation lag multiplied by cases averted.
+
+3. Mortality risk reductions, sensitivity analysis for age differences. In this example, we again assume
+that the regulation reduces the number of expected deaths by 100 in each year. However, we assume
+that the deaths are disproportionately among the elderly in this case. For simplicity, we assume that
+those affected are all age 75. In reality, the deaths are likely to be distributed over a range of ages and
+this full distribution of age-specific values should be used in the analysis.
+
+As noted earlier, we assume that the average age that underlies the population-average VSLs (reported
+in Tables D.1 and D.2) is 40. In this example, our goal is to estimate VSL instead for an individual age 75.
+These calculations require estimating expected future QALYs per statistical case at the age affected (75
+in the example), using the same data sources as used to derive the constant value per QALY in section
+
+19
+  Discounting is discussed in detail in Guidelines Chapter 5. ASPE has developed an Excel workbook for calculating discounted
+present values and annualized values that is available upon request and can be used to develop these estimates.
+20
+  Alternatively, discounting deaths averted rather than the VSL estimates over the same time period would lead to the same
+result. We discount the VSL estimates to emphasize the underlying concept; i.e., we expect that individual WTP for a future risk
+reduction will be less than individual WTP for a current risk reduction due to time preferences.
+
+
+
+                                                                                                                             D-17
+D.3. 21 We then multiply the results by the constant value per QALY for the analytic year (see Table D.4),
+which leads to a VSL estimate adjusted for age. 22 We again calculate the present value as of the base
+year (2023) using a 3 percent discount rate.
+
+Table D.7. Example, Mortality risk reductions, sensitivity analysis, age 75 (2020 dollars)a
+                         Deaths          Expected Future                                VSL, with age
+     Analytic Year                                              Value per QALYc                                Total Valuee
+                         Averted         QALYs, per caseb                               adjustmentd
+         2023              100             7.94 QALYs               $590,000             $4.7 million          $0.47 billion
+         2024              100             7.94 QALYs               $600,000             $4.7 million          $0.47 billion
+         2025              100              7.94 QALYs              $600,000             $4.8 million          $0.48 billion
+         2026              100              7.94 QALYs              $610,000             $4.8 million          $0.48 billion
+         2027              100              7.94 QALYs              $610,000             $4.9 million          $0.49 billion
+             Total         500                                                      Net present value   F
+                                                                                                               $2.25 billion
+a. All calculations based on unrounded values then rounded for presentation purposes.
+b. Present value of future QALYs on average for an individual age 75 (3 percent discount rate), based on Arias and Xu (2020) and
+Hanmer et al. (2006).
+c. Value per QALY in analytic year (see Table D.4).
+d. Excepted future QALYs multiplied by the value per QALY.
+e. VSL estimate with age adjustment multiplied by deaths averted.
+f. 3 percent discount rate.
+
+These estimates are rough proxies for the value individuals may place on small changes in their own
+risks given their age and hence should be reported only in sensitivity analysis. The relationship between
+VSL and age is uncertain due to gaps and inconsistencies in the underlying research, as discussed in the
+HHS Guidelines (Chapter 3) and Robinson and Hammitt (2016).
+
+4. Morbidity risk reductions, using monetized QALYs. In this example, we instead focus on nonfatal
+illnesses assuming that monetized QALYs are used as a proxy for WTP. We assume that the regulation
+reduces expected cases by 50 in each year, and that each averted case leads to a gain of 0.2 QALYs in
+that year.
+
+For simplicity, we assume that the duration of the averted case would be one year; cases of longer
+duration require discounting future impacts to the analytic year. In addition, we assume that the
+affected individuals would not die from another cause during that year. If baseline survival rates are
+likely to noticeably affect the results, analysts may use CDC’s life tables (e.g., Arias and Xu 2020) to
+adjust for these effects. Furthermore, we assume that the average person affected is age 40; i.e., the
+same as in the VSL studies. In reality, the ages of those affected may differ and the QALY gain may vary
+by age, in which case these differences should be reflected in the analysis.
+
+
+
+
+21
+  If we performed these calculations instead for individuals age 40, the result would equal the VSL estimates in Table D.2, since
+the value per QALY calculations assume the average individual in the underlying studies is age 40.
+22
+  An alternative approach would be to calculate the present value of the total change in QALYs across all cases, then multiply
+by the value per QALY. We use deaths averted and report VSL estimates adjusted for age instead to emphasize that the intent is
+to test the sensitivity of the results to adjusting population-average VSL estimates for age.
+
+
+
+                                                                                                                           D-18
+Table D.8. Example, morbidity risk reductions (2020 dollars)a
+                        Nonfatal           Change in                                      Value per
+  Analytic Year                                                 Value per QALYc                                 Total Valuee
+                      Cases Averted      QALYs, per caseb                              statistical cased
+       2023                50              0.2 QALYS                $590,000              $120,000               $5.9 million
+       2024                    50            0.2 QALYS              $600,000              $120,000               $6.0 million
+       2025                    50            0.2 QALYS              $600,000              $120,000               $6.0 million
+       2026                    50            0.2 QALYS              $610,000              $120,000               $6.1 million
+       2027                    50            0.2 QALYS              $610,000              $120,000              $6.1 million
+             Total          250                                                     Net present value      f
+                                                                                                                $28.3 million
+a. All calculations based on unrounded values then rounded for presentation purposes.
+b. Change in QALYs assumes one-year duration.
+c. Value per QALY in analytic year from Table D.4.
+d. The value per statistical case equals the change in QALYs multiplied by the value per QALY.
+e. Value per statistical case multiplied by cases averted.
+f. 3 percent discount rate
+
+5. Summary Table. Once the calculations illustrated above are completed as relevant, the results should
+be summarized in a table for inclusion in the regulatory impact analysis document along with the
+supporting data and calculations. Table D.9 provides an example of such a table, including the results
+from Table D.5 and Table D.8 using a 3 percent discount rate. In this table, we express the results in
+billions of dollars for internal consistency.
+
+Table D.9. Example, summary table, mortality and morbidity risk reductions (2020 dollars)a
+                                    Nonfatal                                      Total Value,
+  Analytic           Deaths                         Total Value, Deaths
+                                     Cases                                       Nonfatal Cases                Grand Total
+   Year              Averted                              Averted
+                                    Avertedb                                        Averted
+    2023              100              50                $1.17 billion           $0.006 billion                $1.17 billion
+    2024              100               50               $1.18 billion            $0.006 billion               $1.18 billion
+    2025              100               50               $1.19 billion            $0.006 billion               $1.19 billion
+    2026              100               50               $1.20 billion            $0.006 billion               $1.20 billion
+    2027              100               50               $1.21 billion            $0.006 billion               $1.21 billion
+    Total             500             250
+                             Net present value
+                                                         $5.60 billion            $0.028 billion               $5.63 billion
+                      (3 percent discount rate)
+a. All calculations based on unrounded values then rounded for presentation purposes; see Tables D.5 and D.8 and related text
+for more detail.
+c. In this example the illness is hypothetical; otherwise, the name of the illness would be included here.
+
+A similar table, that reports the results using a 7 percent rate, should also be provided. In the latter case,
+the value of nonfatal risk reductions should be derived using the values per QALY calculated using the 7
+percent rate (see Table D.4b), rather than the values using a 3 percent rate (see Table D.4a) which are
+applied in the example in Table D.8.
+
+As discussed in Chapter 8 of the HHS Guidelines, the analysis must be clearly and comprehensively
+documented, describing the analytic approach and the results as well as the implications of
+uncertainties and nonquantified effects. This documentation should be written so that members of the
+
+
+                                                                                                                               D-19
+lay public can understand the analysis and conclusions. It should also provide enough detail so that
+competent analysts could ideally reconstruct the analysis, or at least at minimum explore the
+implications of changing key assumptions.
+
+To support these goals, analysts may wish to include some information from this appendix in the
+regulatory impact analysis document to aid in explaining the approach. This appendix may also be
+included in the rulemaking docket to provide more detailed information.
+
+
+
+
+                                                                                                       D-20
+References
+Arias, E. and J. Xu. 2020. “United States Life Tables, 2018.” National Vital Statistics Reports. 69(12).
+https://www.cdc.gov/nchs/data/nvsr/nvsr69/nvsr69-12-508.pdf
+
+Clinton, W.J. 1993. “Executive Order 12866: Regulatory Planning and Review.” Federal Register 58(190):
+51735-51744. https://www.archives.gov/files/federal-register/executive-orders/pdf/12866.pdf
+
+Congressional Budget Office. 2021. The 2021 Long-Term Budget Outlook.
+https://www.cbo.gov/publication/57038
+
+Hanmer, J., W.F. Lawrence, J.P. Anderson, R.M. Kaplan, and D.G. Fryback. 2006. “Report of Nationally
+Representative Values for the Noninstitutionalized US Adult Population for 7 Health-Related Quality-of-
+Life Scores.” Medical Decision Making 26(4):391-400.
+
+Obama, B. 2011. “Executive Order 13563: Improving Regulation and Regulatory Review.” Federal
+Register 76(14): 3821-3823. https://www.govinfo.gov/content/pkg/FR-2011-01-21/pdf/2011-1385.pdf
+
+Robinson, L.A. and J.K. Hammitt. 2016. “Valuing Reductions in Fatal Illness Risks: Implications of Recent
+Research.” Health Economics 25(8):1039-1052.
+
+U.S. Department of Health and Human Services. 2016. Guidelines for Regulatory Impact Analysis
+https://aspe.hhs.gov/pdf-report/guidelines-regulatory-impact-analysis
+
+U.S. Office of Management and Budget (OMB). 2003. Circular A-4: Regulatory Analysis.
+https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/circulars/A4/a-4.pdf
+
+
+
+
+                                                                                                           D-21
+

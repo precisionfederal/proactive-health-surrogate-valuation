@@ -1,0 +1,55 @@
+{
+ "generated": "2026-11-03 13:05:22",
+ "headline_seed_mean": {
+  "c_phenoage": 0.8639675974845886,
+  "c_ours_per_seed": [
+   0.8760343790054321,
+   0.8737428784370422,
+   0.8739991188049316,
+   0.8756057620048523,
+   0.8742942214012146
+  ],
+  "c_ours_seed_mean": 0.8747352719306946,
+  "delta": 0.010767674446105935,
+  "ci95_low": 0.007645763456821442,
+  "ci95_high": 0.013812291622161863,
+  "n": 15189,
+  "events_10y": 1956,
+  "seeds": [
+   11,
+   23,
+   37,
+   41,
+   59
+  ],
+  "method": "paired bootstrap, 1,000 resamples; per resample mean over 5 seeds of C(ours) minus C(PhenoAge); Harrell C, 10-year horizon",
+  "separates": true
+ },
+ "pte_current_smoking": {
+  "n": 11377,
+  "n_current": 3370,
+  "deaths_10y": 1146,
+  "method": "Freedman, Graubard, Schatzkin, Stat Med 1992;11(2):167-178; Cox (Breslow), 10-year horizon, adjusted for age and sex; observational, individual-level",
+  "phenoage": {
+   "beta_smoking_without_surrogate": 0.8757140148936118,
+   "beta_smoking_with_surrogate": 0.7314771435216083,
+   "hr_smoking_without": 2.400588738294497,
+   "hr_smoking_with": 2.0781480645298207,
+   "pte": 0.164707734396059,
+   "ci95_low": 0.1122548384787093,
+   "ci95_high": 0.22382820756618216,
+   "n_boot": 200
+  },
+  "ours": {
+   "beta_smoking_without_surrogate": 0.8757140148936118,
+   "beta_smoking_with_surrogate": 0.6395852486695089,
+   "hr_smoking_without": 2.400588738294497,
+   "hr_smoking_with": 1.895694474429516,
+   "pte": 0.26964141512887574,
+   "ci95_low": 0.2081120010199305,
+   "ci95_high": 0.3485311899804917,
+   "n_boot": 200
+  }
+ },
+ "runtime_s": 1071.6
+}

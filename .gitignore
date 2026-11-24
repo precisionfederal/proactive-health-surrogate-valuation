@@ -1,0 +1,6 @@
+data/
+*.xpt
+*.dat
+*.npz
+__pycache__/
+sources/*.pdf

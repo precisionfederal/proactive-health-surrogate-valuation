@@ -1,0 +1,2394 @@
+{
+ "source_citation": "U.S. Department of Health and Human Services, ASPE. Appendix D: Updating Value per Statistical Life (VSL) Estimates for Inflation and Changes in Real Income. April 2021. Supplement to the HHS Guidelines for Regulatory Impact Analysis (2016).",
+ "source_file": "sources/aspe-2021-appendix-d-vsl-update.pdf",
+ "verified_date": "2026-11-03",
+ "interval": "n/a \u2014 deterministic arithmetic on printed inputs",
+ "headline": {
+  "vsl_central_2020": {
+   "published_value": "$11.4 million",
+   "reproduced_value": 11410084.0
+  },
+  "value_per_qaly_central_2020_3pct": {
+   "published_value": "$580,000",
+   "reproduced_value": 582147.0
+  },
+  "example_D5_npv": {
+   "published_value": "$5.60 billion",
+   "reproduced_value": 5598729461.0
+  }
+ },
+ "values_compared": 275,
+ "values_matched": 254,
+ "mismatches": [
+  {
+   "table": "D.2",
+   "item": "VSL central 2047",
+   "ours_raw": 14148917.21,
+   "ours_printed_form": "$14.1 million",
+   "printed": "$14.3 million",
+   "match": false
+  },
+  {
+   "table": "D.2",
+   "item": "VSL central 2048",
+   "ours_raw": 14262108.55,
+   "ours_printed_form": "$14.3 million",
+   "printed": "$14.4 million",
+   "match": false
+  },
+  {
+   "table": "D.3/D.4a",
+   "item": "value per QALY high 2020 at 3%",
+   "ours_raw": 886157.31,
+   "ours_printed_form": "$890,000",
+   "printed": "$880,000",
+   "match": false
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY central 2023 at 3%",
+   "ours_raw": 596230.74,
+   "ours_printed_form": "$600,000",
+   "printed": "$590,000",
+   "match": false
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY central 2025 at 3%",
+   "ours_raw": 605808.59,
+   "ours_printed_form": "$610,000",
+   "printed": "$600,000",
+   "match": false
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY central 2027 at 3%",
+   "ours_raw": 615540.3,
+   "ours_printed_form": "$620,000",
+   "printed": "$610,000",
+   "match": false
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY high 2027 at 3%",
+   "ours_raw": 936989.12,
+   "ours_printed_form": "$940,000",
+   "printed": "$930,000",
+   "match": false
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY central 2029 at 3%",
+   "ours_raw": 625428.34,
+   "ours_printed_form": "$630,000",
+   "printed": "$620,000",
+   "match": false
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY central 2031 at 3%",
+   "ours_raw": 635475.22,
+   "ours_printed_form": "$640,000",
+   "printed": "$630,000",
+   "match": false
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY high 2032 at 3%",
+   "ours_raw": 975073.18,
+   "ours_printed_form": "$980,000",
+   "printed": "$970,000",
+   "match": false
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY central 2033 at 3%",
+   "ours_raw": 645683.49,
+   "ours_printed_form": "$650,000",
+   "printed": "$640,000",
+   "match": false
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY central 2035 at 3%",
+   "ours_raw": 656055.75,
+   "ours_printed_form": "$660,000",
+   "printed": "$650,000",
+   "match": false
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY high 2036 at 3%",
+   "ours_raw": 1006651.95,
+   "ours_printed_form": "$1,010,000",
+   "printed": "$1,000,000",
+   "match": false
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY high 2042 at 3%",
+   "ours_raw": 1055948.0,
+   "ours_printed_form": "$1,060,000",
+   "printed": "$1,050,000",
+   "match": false
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY central 2046 at 3%",
+   "ours_raw": 716154.3,
+   "ours_printed_form": "$720,000",
+   "printed": "$710,000",
+   "match": false
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY high 2049 at 3%",
+   "ours_raw": 1116519.36,
+   "ours_printed_form": "$1,120,000",
+   "printed": "$1,110,000",
+   "match": false
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY low 2039 at 7%",
+   "ours_raw": 525005.34,
+   "ours_printed_form": "$530,000",
+   "printed": "$520,000",
+   "match": false
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY central 2039 at 7%",
+   "ours_raw": 1125011.45,
+   "ours_printed_form": "$1,130,000",
+   "printed": "$1,120,000",
+   "match": false
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY high 2047 at 7%",
+   "ours_raw": 1825236.97,
+   "ours_printed_form": "$1,830,000",
+   "printed": "$1,820,000",
+   "match": false
+  },
+  {
+   "table": "D.7",
+   "item": "example net present value D.7",
+   "ours_raw": 2268056730.62,
+   "ours_printed_form": "$2.27 billion",
+   "printed": "$2.25 billion",
+   "match": false
+  },
+  {
+   "table": "D.8",
+   "item": "example net present value D.8",
+   "ours_raw": 28564946.23,
+   "ours_printed_form": "$28.6 million",
+   "printed": "$28.3 million",
+   "match": false
+  }
+ ],
+ "rows": [
+  {
+   "table": "D.1/D.2",
+   "item": "VSL low 2020",
+   "ours_raw": 5324705.83,
+   "ours_printed_form": "$5.3 million",
+   "printed": "$5.3 million",
+   "match": true
+  },
+  {
+   "table": "D.1/D.2",
+   "item": "VSL central 2020",
+   "ours_raw": 11410083.92,
+   "ours_printed_form": "$11.4 million",
+   "printed": "$11.4 million",
+   "match": true
+  },
+  {
+   "table": "D.1/D.2",
+   "item": "VSL high 2020",
+   "ours_raw": 17368683.3,
+   "ours_printed_form": "$17.4 million",
+   "printed": "$17.4 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL low 2021",
+   "ours_raw": 5367303.47,
+   "ours_printed_form": "$5.4 million",
+   "printed": "$5.4 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL central 2021",
+   "ours_raw": 11501364.59,
+   "ours_printed_form": "$11.5 million",
+   "printed": "$11.5 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL high 2021",
+   "ours_raw": 17507632.76,
+   "ours_printed_form": "$17.5 million",
+   "printed": "$17.5 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL low 2022",
+   "ours_raw": 5410241.9,
+   "ours_printed_form": "$5.4 million",
+   "printed": "$5.4 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL central 2022",
+   "ours_raw": 11593375.5,
+   "ours_printed_form": "$11.6 million",
+   "printed": "$11.6 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL high 2022",
+   "ours_raw": 17647693.82,
+   "ours_printed_form": "$17.6 million",
+   "printed": "$17.6 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL low 2023",
+   "ours_raw": 5453523.84,
+   "ours_printed_form": "$5.5 million",
+   "printed": "$5.5 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL central 2023",
+   "ours_raw": 11686122.51,
+   "ours_printed_form": "$11.7 million",
+   "printed": "$11.7 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL high 2023",
+   "ours_raw": 17788875.37,
+   "ours_printed_form": "$17.8 million",
+   "printed": "$17.8 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL low 2024",
+   "ours_raw": 5497152.03,
+   "ours_printed_form": "$5.5 million",
+   "printed": "$5.5 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL central 2024",
+   "ours_raw": 11779611.49,
+   "ours_printed_form": "$11.8 million",
+   "printed": "$11.8 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL high 2024",
+   "ours_raw": 17931186.38,
+   "ours_printed_form": "$17.9 million",
+   "printed": "$17.9 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL low 2025",
+   "ours_raw": 5541129.24,
+   "ours_printed_form": "$5.5 million",
+   "printed": "$5.5 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL central 2025",
+   "ours_raw": 11873848.38,
+   "ours_printed_form": "$11.9 million",
+   "printed": "$11.9 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL high 2025",
+   "ours_raw": 18074635.87,
+   "ours_printed_form": "$18.1 million",
+   "printed": "$18.1 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL low 2026",
+   "ours_raw": 5585458.28,
+   "ours_printed_form": "$5.6 million",
+   "printed": "$5.6 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL central 2026",
+   "ours_raw": 11968839.17,
+   "ours_printed_form": "$12.0 million",
+   "printed": "$12.0 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL high 2026",
+   "ours_raw": 18219232.95,
+   "ours_printed_form": "$18.2 million",
+   "printed": "$18.2 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL low 2027",
+   "ours_raw": 5630141.94,
+   "ours_printed_form": "$5.6 million",
+   "printed": "$5.6 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL central 2027",
+   "ours_raw": 12064589.88,
+   "ours_printed_form": "$12.1 million",
+   "printed": "$12.1 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL high 2027",
+   "ours_raw": 18364986.82,
+   "ours_printed_form": "$18.4 million",
+   "printed": "$18.4 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL low 2028",
+   "ours_raw": 5675183.08,
+   "ours_printed_form": "$5.7 million",
+   "printed": "$5.7 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL central 2028",
+   "ours_raw": 12161106.6,
+   "ours_printed_form": "$12.2 million",
+   "printed": "$12.2 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL high 2028",
+   "ours_raw": 18511906.71,
+   "ours_printed_form": "$18.5 million",
+   "printed": "$18.5 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL low 2029",
+   "ours_raw": 5720584.54,
+   "ours_printed_form": "$5.7 million",
+   "printed": "$5.7 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL central 2029",
+   "ours_raw": 12258395.45,
+   "ours_printed_form": "$12.3 million",
+   "printed": "$12.3 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL high 2029",
+   "ours_raw": 18660001.97,
+   "ours_printed_form": "$18.7 million",
+   "printed": "$18.7 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL low 2030",
+   "ours_raw": 5766349.22,
+   "ours_printed_form": "$5.8 million",
+   "printed": "$5.8 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL central 2030",
+   "ours_raw": 12356462.62,
+   "ours_printed_form": "$12.4 million",
+   "printed": "$12.4 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL high 2030",
+   "ours_raw": 18809281.98,
+   "ours_printed_form": "$18.8 million",
+   "printed": "$18.8 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL low 2031",
+   "ours_raw": 5812480.01,
+   "ours_printed_form": "$5.8 million",
+   "printed": "$5.8 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL central 2031",
+   "ours_raw": 12455314.32,
+   "ours_printed_form": "$12.5 million",
+   "printed": "$12.5 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL high 2031",
+   "ours_raw": 18959756.24,
+   "ours_printed_form": "$19.0 million",
+   "printed": "$19.0 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL low 2032",
+   "ours_raw": 5858979.85,
+   "ours_printed_form": "$5.9 million",
+   "printed": "$5.9 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL central 2032",
+   "ours_raw": 12554956.83,
+   "ours_printed_form": "$12.6 million",
+   "printed": "$12.6 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL high 2032",
+   "ours_raw": 19111434.29,
+   "ours_printed_form": "$19.1 million",
+   "printed": "$19.1 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL low 2033",
+   "ours_raw": 5905851.69,
+   "ours_printed_form": "$5.9 million",
+   "printed": "$5.9 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL central 2033",
+   "ours_raw": 12655396.49,
+   "ours_printed_form": "$12.7 million",
+   "printed": "$12.7 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL high 2033",
+   "ours_raw": 19264325.76,
+   "ours_printed_form": "$19.3 million",
+   "printed": "$19.3 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL low 2034",
+   "ours_raw": 5953098.51,
+   "ours_printed_form": "$6.0 million",
+   "printed": "$6.0 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL central 2034",
+   "ours_raw": 12756639.66,
+   "ours_printed_form": "$12.8 million",
+   "printed": "$12.8 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL high 2034",
+   "ours_raw": 19418440.37,
+   "ours_printed_form": "$19.4 million",
+   "printed": "$19.4 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL low 2035",
+   "ours_raw": 6000723.3,
+   "ours_printed_form": "$6.0 million",
+   "printed": "$6.0 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL central 2035",
+   "ours_raw": 12858692.78,
+   "ours_printed_form": "$12.9 million",
+   "printed": "$12.9 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL high 2035",
+   "ours_raw": 19573787.89,
+   "ours_printed_form": "$19.6 million",
+   "printed": "$19.6 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL low 2036",
+   "ours_raw": 6048729.08,
+   "ours_printed_form": "$6.0 million",
+   "printed": "$6.0 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL central 2036",
+   "ours_raw": 12961562.32,
+   "ours_printed_form": "$13.0 million",
+   "printed": "$13.0 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL high 2036",
+   "ours_raw": 19730378.19,
+   "ours_printed_form": "$19.7 million",
+   "printed": "$19.7 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL low 2037",
+   "ours_raw": 6097118.91,
+   "ours_printed_form": "$6.1 million",
+   "printed": "$6.1 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL central 2037",
+   "ours_raw": 13065254.82,
+   "ours_printed_form": "$13.1 million",
+   "printed": "$13.1 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL high 2037",
+   "ours_raw": 19888221.22,
+   "ours_printed_form": "$19.9 million",
+   "printed": "$19.9 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL low 2038",
+   "ours_raw": 6145895.87,
+   "ours_printed_form": "$6.1 million",
+   "printed": "$6.1 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL central 2038",
+   "ours_raw": 13169776.85,
+   "ours_printed_form": "$13.2 million",
+   "printed": "$13.2 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL high 2038",
+   "ours_raw": 20047326.99,
+   "ours_printed_form": "$20.0 million",
+   "printed": "$20.0 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL low 2039",
+   "ours_raw": 6195063.03,
+   "ours_printed_form": "$6.2 million",
+   "printed": "$6.2 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL central 2039",
+   "ours_raw": 13275135.07,
+   "ours_printed_form": "$13.3 million",
+   "printed": "$13.3 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL high 2039",
+   "ours_raw": 20207705.61,
+   "ours_printed_form": "$20.2 million",
+   "printed": "$20.2 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL low 2040",
+   "ours_raw": 6244623.54,
+   "ours_printed_form": "$6.2 million",
+   "printed": "$6.2 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL central 2040",
+   "ours_raw": 13381336.15,
+   "ours_printed_form": "$13.4 million",
+   "printed": "$13.4 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL high 2040",
+   "ours_raw": 20369367.25,
+   "ours_printed_form": "$20.4 million",
+   "printed": "$20.4 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL low 2041",
+   "ours_raw": 6294580.53,
+   "ours_printed_form": "$6.3 million",
+   "printed": "$6.3 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL central 2041",
+   "ours_raw": 13488386.84,
+   "ours_printed_form": "$13.5 million",
+   "printed": "$13.5 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL high 2041",
+   "ours_raw": 20532322.19,
+   "ours_printed_form": "$20.5 million",
+   "printed": "$20.5 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL low 2042",
+   "ours_raw": 6344937.17,
+   "ours_printed_form": "$6.3 million",
+   "printed": "$6.3 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL central 2042",
+   "ours_raw": 13596293.93,
+   "ours_printed_form": "$13.6 million",
+   "printed": "$13.6 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL high 2042",
+   "ours_raw": 20696580.77,
+   "ours_printed_form": "$20.7 million",
+   "printed": "$20.7 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL low 2043",
+   "ours_raw": 6395696.67,
+   "ours_printed_form": "$6.4 million",
+   "printed": "$6.4 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL central 2043",
+   "ours_raw": 13705064.29,
+   "ours_printed_form": "$13.7 million",
+   "printed": "$13.7 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL high 2043",
+   "ours_raw": 20862153.41,
+   "ours_printed_form": "$20.9 million",
+   "printed": "$20.9 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL low 2044",
+   "ours_raw": 6446862.24,
+   "ours_printed_form": "$6.4 million",
+   "printed": "$6.4 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL central 2044",
+   "ours_raw": 13814704.8,
+   "ours_printed_form": "$13.8 million",
+   "printed": "$13.8 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL high 2044",
+   "ours_raw": 21029050.64,
+   "ours_printed_form": "$21.0 million",
+   "printed": "$21.0 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL low 2045",
+   "ours_raw": 6498437.14,
+   "ours_printed_form": "$6.5 million",
+   "printed": "$6.5 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL central 2045",
+   "ours_raw": 13925222.44,
+   "ours_printed_form": "$13.9 million",
+   "printed": "$13.9 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL high 2045",
+   "ours_raw": 21197283.05,
+   "ours_printed_form": "$21.2 million",
+   "printed": "$21.2 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL low 2046",
+   "ours_raw": 6550424.64,
+   "ours_printed_form": "$6.6 million",
+   "printed": "$6.6 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL central 2046",
+   "ours_raw": 14036624.22,
+   "ours_printed_form": "$14.0 million",
+   "printed": "$14.0 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL high 2046",
+   "ours_raw": 21366861.31,
+   "ours_printed_form": "$21.4 million",
+   "printed": "$21.4 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL low 2047",
+   "ours_raw": 6602828.03,
+   "ours_printed_form": "$6.6 million",
+   "printed": "$6.6 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL central 2047",
+   "ours_raw": 14148917.21,
+   "ours_printed_form": "$14.1 million",
+   "printed": "$14.3 million",
+   "match": false
+  },
+  {
+   "table": "D.2",
+   "item": "VSL high 2047",
+   "ours_raw": 21537796.2,
+   "ours_printed_form": "$21.5 million",
+   "printed": "$21.5 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL low 2048",
+   "ours_raw": 6655650.66,
+   "ours_printed_form": "$6.7 million",
+   "printed": "$6.7 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL central 2048",
+   "ours_raw": 14262108.55,
+   "ours_printed_form": "$14.3 million",
+   "printed": "$14.4 million",
+   "match": false
+  },
+  {
+   "table": "D.2",
+   "item": "VSL high 2048",
+   "ours_raw": 21710098.57,
+   "ours_printed_form": "$21.7 million",
+   "printed": "$21.7 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL low 2049",
+   "ours_raw": 6708895.86,
+   "ours_printed_form": "$6.7 million",
+   "printed": "$6.7 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL central 2049",
+   "ours_raw": 14376205.42,
+   "ours_printed_form": "$14.4 million",
+   "printed": "$14.4 million",
+   "match": true
+  },
+  {
+   "table": "D.2",
+   "item": "VSL high 2049",
+   "ours_raw": 21883779.36,
+   "ours_printed_form": "$21.9 million",
+   "printed": "$21.9 million",
+   "match": true
+  },
+  {
+   "table": "D.3/D.4a",
+   "item": "value per QALY low 2020 at 3%",
+   "ours_raw": 271668.66,
+   "ours_printed_form": "$270,000",
+   "printed": "$270,000",
+   "match": true
+  },
+  {
+   "table": "D.3/D.4a",
+   "item": "value per QALY central 2020 at 3%",
+   "ours_raw": 582147.14,
+   "ours_printed_form": "$580,000",
+   "printed": "$580,000",
+   "match": true
+  },
+  {
+   "table": "D.3/D.4a",
+   "item": "value per QALY high 2020 at 3%",
+   "ours_raw": 886157.31,
+   "ours_printed_form": "$890,000",
+   "printed": "$880,000",
+   "match": false
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY low 2021 at 3%",
+   "ours_raw": 273842.01,
+   "ours_printed_form": "$270,000",
+   "printed": "$270,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY central 2021 at 3%",
+   "ours_raw": 586804.32,
+   "ours_printed_form": "$590,000",
+   "printed": "$590,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY high 2021 at 3%",
+   "ours_raw": 893246.57,
+   "ours_printed_form": "$890,000",
+   "printed": "$890,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY low 2022 at 3%",
+   "ours_raw": 276032.75,
+   "ours_printed_form": "$280,000",
+   "printed": "$280,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY central 2022 at 3%",
+   "ours_raw": 591498.75,
+   "ours_printed_form": "$590,000",
+   "printed": "$590,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY high 2022 at 3%",
+   "ours_raw": 900392.54,
+   "ours_printed_form": "$900,000",
+   "printed": "$900,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY low 2023 at 3%",
+   "ours_raw": 278241.01,
+   "ours_printed_form": "$280,000",
+   "printed": "$280,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY central 2023 at 3%",
+   "ours_raw": 596230.74,
+   "ours_printed_form": "$600,000",
+   "printed": "$590,000",
+   "match": false
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY high 2023 at 3%",
+   "ours_raw": 907595.68,
+   "ours_printed_form": "$910,000",
+   "printed": "$910,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY low 2024 at 3%",
+   "ours_raw": 280466.94,
+   "ours_printed_form": "$280,000",
+   "printed": "$280,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY central 2024 at 3%",
+   "ours_raw": 601000.59,
+   "ours_printed_form": "$600,000",
+   "printed": "$600,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY high 2024 at 3%",
+   "ours_raw": 914856.45,
+   "ours_printed_form": "$910,000",
+   "printed": "$910,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY low 2025 at 3%",
+   "ours_raw": 282710.68,
+   "ours_printed_form": "$280,000",
+   "printed": "$280,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY central 2025 at 3%",
+   "ours_raw": 605808.59,
+   "ours_printed_form": "$610,000",
+   "printed": "$600,000",
+   "match": false
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY high 2025 at 3%",
+   "ours_raw": 922175.3,
+   "ours_printed_form": "$920,000",
+   "printed": "$920,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY low 2026 at 3%",
+   "ours_raw": 284972.36,
+   "ours_printed_form": "$280,000",
+   "printed": "$280,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY central 2026 at 3%",
+   "ours_raw": 610655.06,
+   "ours_printed_form": "$610,000",
+   "printed": "$610,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY high 2026 at 3%",
+   "ours_raw": 929552.7,
+   "ours_printed_form": "$930,000",
+   "printed": "$930,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY low 2027 at 3%",
+   "ours_raw": 287252.14,
+   "ours_printed_form": "$290,000",
+   "printed": "$290,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY central 2027 at 3%",
+   "ours_raw": 615540.3,
+   "ours_printed_form": "$620,000",
+   "printed": "$610,000",
+   "match": false
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY high 2027 at 3%",
+   "ours_raw": 936989.12,
+   "ours_printed_form": "$940,000",
+   "printed": "$930,000",
+   "match": false
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY low 2028 at 3%",
+   "ours_raw": 289550.16,
+   "ours_printed_form": "$290,000",
+   "printed": "$290,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY central 2028 at 3%",
+   "ours_raw": 620464.62,
+   "ours_printed_form": "$620,000",
+   "printed": "$620,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY high 2028 at 3%",
+   "ours_raw": 944485.04,
+   "ours_printed_form": "$940,000",
+   "printed": "$940,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY low 2029 at 3%",
+   "ours_raw": 291866.56,
+   "ours_printed_form": "$290,000",
+   "printed": "$290,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY central 2029 at 3%",
+   "ours_raw": 625428.34,
+   "ours_printed_form": "$630,000",
+   "printed": "$620,000",
+   "match": false
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY high 2029 at 3%",
+   "ours_raw": 952040.92,
+   "ours_printed_form": "$950,000",
+   "printed": "$950,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY low 2030 at 3%",
+   "ours_raw": 294201.49,
+   "ours_printed_form": "$290,000",
+   "printed": "$290,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY central 2030 at 3%",
+   "ours_raw": 630431.77,
+   "ours_printed_form": "$630,000",
+   "printed": "$630,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY high 2030 at 3%",
+   "ours_raw": 959657.24,
+   "ours_printed_form": "$960,000",
+   "printed": "$960,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY low 2031 at 3%",
+   "ours_raw": 296555.1,
+   "ours_printed_form": "$300,000",
+   "printed": "$300,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY central 2031 at 3%",
+   "ours_raw": 635475.22,
+   "ours_printed_form": "$640,000",
+   "printed": "$630,000",
+   "match": false
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY high 2031 at 3%",
+   "ours_raw": 967334.5,
+   "ours_printed_form": "$970,000",
+   "printed": "$970,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY low 2032 at 3%",
+   "ours_raw": 298927.54,
+   "ours_printed_form": "$300,000",
+   "printed": "$300,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY central 2032 at 3%",
+   "ours_raw": 640559.02,
+   "ours_printed_form": "$640,000",
+   "printed": "$640,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY high 2032 at 3%",
+   "ours_raw": 975073.18,
+   "ours_printed_form": "$980,000",
+   "printed": "$970,000",
+   "match": false
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY low 2033 at 3%",
+   "ours_raw": 301318.96,
+   "ours_printed_form": "$300,000",
+   "printed": "$300,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY central 2033 at 3%",
+   "ours_raw": 645683.49,
+   "ours_printed_form": "$650,000",
+   "printed": "$640,000",
+   "match": false
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY high 2033 at 3%",
+   "ours_raw": 982873.76,
+   "ours_printed_form": "$980,000",
+   "printed": "$980,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY low 2034 at 3%",
+   "ours_raw": 303729.52,
+   "ours_printed_form": "$300,000",
+   "printed": "$300,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY central 2034 at 3%",
+   "ours_raw": 650848.96,
+   "ours_printed_form": "$650,000",
+   "printed": "$650,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY high 2034 at 3%",
+   "ours_raw": 990736.75,
+   "ours_printed_form": "$990,000",
+   "printed": "$990,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY low 2035 at 3%",
+   "ours_raw": 306159.35,
+   "ours_printed_form": "$310,000",
+   "printed": "$310,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY central 2035 at 3%",
+   "ours_raw": 656055.75,
+   "ours_printed_form": "$660,000",
+   "printed": "$650,000",
+   "match": false
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY high 2035 at 3%",
+   "ours_raw": 998662.65,
+   "ours_printed_form": "$1,000,000",
+   "printed": "$1,000,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY low 2036 at 3%",
+   "ours_raw": 308608.63,
+   "ours_printed_form": "$310,000",
+   "printed": "$310,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY central 2036 at 3%",
+   "ours_raw": 661304.2,
+   "ours_printed_form": "$660,000",
+   "printed": "$660,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY high 2036 at 3%",
+   "ours_raw": 1006651.95,
+   "ours_printed_form": "$1,010,000",
+   "printed": "$1,000,000",
+   "match": false
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY low 2037 at 3%",
+   "ours_raw": 311077.5,
+   "ours_printed_form": "$310,000",
+   "printed": "$310,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY central 2037 at 3%",
+   "ours_raw": 666594.63,
+   "ours_printed_form": "$670,000",
+   "printed": "$670,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY high 2037 at 3%",
+   "ours_raw": 1014705.16,
+   "ours_printed_form": "$1,010,000",
+   "printed": "$1,010,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY low 2038 at 3%",
+   "ours_raw": 313566.12,
+   "ours_printed_form": "$310,000",
+   "printed": "$310,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY central 2038 at 3%",
+   "ours_raw": 671927.39,
+   "ours_printed_form": "$670,000",
+   "printed": "$670,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY high 2038 at 3%",
+   "ours_raw": 1022822.81,
+   "ours_printed_form": "$1,020,000",
+   "printed": "$1,020,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY low 2039 at 3%",
+   "ours_raw": 316074.64,
+   "ours_printed_form": "$320,000",
+   "printed": "$320,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY central 2039 at 3%",
+   "ours_raw": 677302.81,
+   "ours_printed_form": "$680,000",
+   "printed": "$680,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY high 2039 at 3%",
+   "ours_raw": 1031005.39,
+   "ours_printed_form": "$1,030,000",
+   "printed": "$1,030,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY low 2040 at 3%",
+   "ours_raw": 318603.24,
+   "ours_printed_form": "$320,000",
+   "printed": "$320,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY central 2040 at 3%",
+   "ours_raw": 682721.23,
+   "ours_printed_form": "$680,000",
+   "printed": "$680,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY high 2040 at 3%",
+   "ours_raw": 1039253.43,
+   "ours_printed_form": "$1,040,000",
+   "printed": "$1,040,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY low 2041 at 3%",
+   "ours_raw": 321152.07,
+   "ours_printed_form": "$320,000",
+   "printed": "$320,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY central 2041 at 3%",
+   "ours_raw": 688183.0,
+   "ours_printed_form": "$690,000",
+   "printed": "$690,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY high 2041 at 3%",
+   "ours_raw": 1047567.46,
+   "ours_printed_form": "$1,050,000",
+   "printed": "$1,050,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY low 2042 at 3%",
+   "ours_raw": 323721.28,
+   "ours_printed_form": "$320,000",
+   "printed": "$320,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY central 2042 at 3%",
+   "ours_raw": 693688.47,
+   "ours_printed_form": "$690,000",
+   "printed": "$690,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY high 2042 at 3%",
+   "ours_raw": 1055948.0,
+   "ours_printed_form": "$1,060,000",
+   "printed": "$1,050,000",
+   "match": false
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY low 2043 at 3%",
+   "ours_raw": 326311.05,
+   "ours_printed_form": "$330,000",
+   "printed": "$330,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY central 2043 at 3%",
+   "ours_raw": 699237.97,
+   "ours_printed_form": "$700,000",
+   "printed": "$700,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY high 2043 at 3%",
+   "ours_raw": 1064395.58,
+   "ours_printed_form": "$1,060,000",
+   "printed": "$1,060,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY low 2044 at 3%",
+   "ours_raw": 328921.54,
+   "ours_printed_form": "$330,000",
+   "printed": "$330,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY central 2044 at 3%",
+   "ours_raw": 704831.88,
+   "ours_printed_form": "$700,000",
+   "printed": "$700,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY high 2044 at 3%",
+   "ours_raw": 1072910.75,
+   "ours_printed_form": "$1,070,000",
+   "printed": "$1,070,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY low 2045 at 3%",
+   "ours_raw": 331552.92,
+   "ours_printed_form": "$330,000",
+   "printed": "$330,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY central 2045 at 3%",
+   "ours_raw": 710470.53,
+   "ours_printed_form": "$710,000",
+   "printed": "$710,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY high 2045 at 3%",
+   "ours_raw": 1081494.03,
+   "ours_printed_form": "$1,080,000",
+   "printed": "$1,080,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY low 2046 at 3%",
+   "ours_raw": 334205.34,
+   "ours_printed_form": "$330,000",
+   "printed": "$330,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY central 2046 at 3%",
+   "ours_raw": 716154.3,
+   "ours_printed_form": "$720,000",
+   "printed": "$710,000",
+   "match": false
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY high 2046 at 3%",
+   "ours_raw": 1090145.99,
+   "ours_printed_form": "$1,090,000",
+   "printed": "$1,090,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY low 2047 at 3%",
+   "ours_raw": 336878.98,
+   "ours_printed_form": "$340,000",
+   "printed": "$340,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY central 2047 at 3%",
+   "ours_raw": 721883.53,
+   "ours_printed_form": "$720,000",
+   "printed": "$720,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY high 2047 at 3%",
+   "ours_raw": 1098867.15,
+   "ours_printed_form": "$1,100,000",
+   "printed": "$1,100,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY low 2048 at 3%",
+   "ours_raw": 339574.01,
+   "ours_printed_form": "$340,000",
+   "printed": "$340,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY central 2048 at 3%",
+   "ours_raw": 727658.6,
+   "ours_printed_form": "$730,000",
+   "printed": "$730,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY high 2048 at 3%",
+   "ours_raw": 1107658.09,
+   "ours_printed_form": "$1,110,000",
+   "printed": "$1,110,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY low 2049 at 3%",
+   "ours_raw": 342290.61,
+   "ours_printed_form": "$340,000",
+   "printed": "$340,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY central 2049 at 3%",
+   "ours_raw": 733479.87,
+   "ours_printed_form": "$730,000",
+   "printed": "$730,000",
+   "match": true
+  },
+  {
+   "table": "D.4a",
+   "item": "value per QALY high 2049 at 3%",
+   "ours_raw": 1116519.36,
+   "ours_printed_form": "$1,120,000",
+   "printed": "$1,110,000",
+   "match": false
+  },
+  {
+   "table": "D.3/D.4b",
+   "item": "value per QALY low 2020 at 7%",
+   "ours_raw": 451246.26,
+   "ours_printed_form": "$450,000",
+   "printed": "$450,000",
+   "match": true
+  },
+  {
+   "table": "D.3/D.4b",
+   "item": "value per QALY central 2020 at 7%",
+   "ours_raw": 966956.26,
+   "ours_printed_form": "$970,000",
+   "printed": "$970,000",
+   "match": true
+  },
+  {
+   "table": "D.3/D.4b",
+   "item": "value per QALY high 2020 at 7%",
+   "ours_raw": 1471922.31,
+   "ours_printed_form": "$1,470,000",
+   "printed": "$1,470,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY low 2021 at 7%",
+   "ours_raw": 454856.23,
+   "ours_printed_form": "$450,000",
+   "printed": "$450,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY central 2021 at 7%",
+   "ours_raw": 974691.91,
+   "ours_printed_form": "$970,000",
+   "printed": "$970,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY high 2021 at 7%",
+   "ours_raw": 1483697.69,
+   "ours_printed_form": "$1,480,000",
+   "printed": "$1,480,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY low 2022 at 7%",
+   "ours_raw": 458495.08,
+   "ours_printed_form": "$460,000",
+   "printed": "$460,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY central 2022 at 7%",
+   "ours_raw": 982489.45,
+   "ours_printed_form": "$980,000",
+   "printed": "$980,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY high 2022 at 7%",
+   "ours_raw": 1495567.27,
+   "ours_printed_form": "$1,500,000",
+   "printed": "$1,500,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY low 2023 at 7%",
+   "ours_raw": 462163.04,
+   "ours_printed_form": "$460,000",
+   "printed": "$460,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY central 2023 at 7%",
+   "ours_raw": 990349.37,
+   "ours_printed_form": "$990,000",
+   "printed": "$990,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY high 2023 at 7%",
+   "ours_raw": 1507531.81,
+   "ours_printed_form": "$1,510,000",
+   "printed": "$1,510,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY low 2024 at 7%",
+   "ours_raw": 465860.34,
+   "ours_printed_form": "$470,000",
+   "printed": "$470,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY central 2024 at 7%",
+   "ours_raw": 998272.16,
+   "ours_printed_form": "$1,000,000",
+   "printed": "$1,000,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY high 2024 at 7%",
+   "ours_raw": 1519592.07,
+   "ours_printed_form": "$1,520,000",
+   "printed": "$1,520,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY low 2025 at 7%",
+   "ours_raw": 469587.22,
+   "ours_printed_form": "$470,000",
+   "printed": "$470,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY central 2025 at 7%",
+   "ours_raw": 1006258.34,
+   "ours_printed_form": "$1,010,000",
+   "printed": "$1,010,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY high 2025 at 7%",
+   "ours_raw": 1531748.8,
+   "ours_printed_form": "$1,530,000",
+   "printed": "$1,530,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY low 2026 at 7%",
+   "ours_raw": 473343.92,
+   "ours_printed_form": "$470,000",
+   "printed": "$470,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY central 2026 at 7%",
+   "ours_raw": 1014308.4,
+   "ours_printed_form": "$1,010,000",
+   "printed": "$1,010,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY high 2026 at 7%",
+   "ours_raw": 1544002.79,
+   "ours_printed_form": "$1,540,000",
+   "printed": "$1,540,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY low 2027 at 7%",
+   "ours_raw": 477130.67,
+   "ours_printed_form": "$480,000",
+   "printed": "$480,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY central 2027 at 7%",
+   "ours_raw": 1022422.87,
+   "ours_printed_form": "$1,020,000",
+   "printed": "$1,020,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY high 2027 at 7%",
+   "ours_raw": 1556354.82,
+   "ours_printed_form": "$1,560,000",
+   "printed": "$1,560,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY low 2028 at 7%",
+   "ours_raw": 480947.72,
+   "ours_printed_form": "$480,000",
+   "printed": "$480,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY central 2028 at 7%",
+   "ours_raw": 1030602.25,
+   "ours_printed_form": "$1,030,000",
+   "printed": "$1,030,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY high 2028 at 7%",
+   "ours_raw": 1568805.65,
+   "ours_printed_form": "$1,570,000",
+   "printed": "$1,570,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY low 2029 at 7%",
+   "ours_raw": 484795.3,
+   "ours_printed_form": "$480,000",
+   "printed": "$480,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY central 2029 at 7%",
+   "ours_raw": 1038847.07,
+   "ours_printed_form": "$1,040,000",
+   "printed": "$1,040,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY high 2029 at 7%",
+   "ours_raw": 1581356.1,
+   "ours_printed_form": "$1,580,000",
+   "printed": "$1,580,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY low 2030 at 7%",
+   "ours_raw": 488673.66,
+   "ours_printed_form": "$490,000",
+   "printed": "$490,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY central 2030 at 7%",
+   "ours_raw": 1047157.85,
+   "ours_printed_form": "$1,050,000",
+   "printed": "$1,050,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY high 2030 at 7%",
+   "ours_raw": 1594006.95,
+   "ours_printed_form": "$1,590,000",
+   "printed": "$1,590,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY low 2031 at 7%",
+   "ours_raw": 492583.05,
+   "ours_printed_form": "$490,000",
+   "printed": "$490,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY central 2031 at 7%",
+   "ours_raw": 1055535.11,
+   "ours_printed_form": "$1,060,000",
+   "printed": "$1,060,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY high 2031 at 7%",
+   "ours_raw": 1606759.0,
+   "ours_printed_form": "$1,610,000",
+   "printed": "$1,610,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY low 2032 at 7%",
+   "ours_raw": 496523.72,
+   "ours_printed_form": "$500,000",
+   "printed": "$500,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY central 2032 at 7%",
+   "ours_raw": 1063979.39,
+   "ours_printed_form": "$1,060,000",
+   "printed": "$1,060,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY high 2032 at 7%",
+   "ours_raw": 1619613.08,
+   "ours_printed_form": "$1,620,000",
+   "printed": "$1,620,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY low 2033 at 7%",
+   "ours_raw": 500495.91,
+   "ours_printed_form": "$500,000",
+   "printed": "$500,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY central 2033 at 7%",
+   "ours_raw": 1072491.23,
+   "ours_printed_form": "$1,070,000",
+   "printed": "$1,070,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY high 2033 at 7%",
+   "ours_raw": 1632569.98,
+   "ours_printed_form": "$1,630,000",
+   "printed": "$1,630,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY low 2034 at 7%",
+   "ours_raw": 504499.87,
+   "ours_printed_form": "$500,000",
+   "printed": "$500,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY central 2034 at 7%",
+   "ours_raw": 1081071.16,
+   "ours_printed_form": "$1,080,000",
+   "printed": "$1,080,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY high 2034 at 7%",
+   "ours_raw": 1645630.54,
+   "ours_printed_form": "$1,650,000",
+   "printed": "$1,650,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY low 2035 at 7%",
+   "ours_raw": 508535.87,
+   "ours_printed_form": "$510,000",
+   "printed": "$510,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY central 2035 at 7%",
+   "ours_raw": 1089719.73,
+   "ours_printed_form": "$1,090,000",
+   "printed": "$1,090,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY high 2035 at 7%",
+   "ours_raw": 1658795.58,
+   "ours_printed_form": "$1,660,000",
+   "printed": "$1,660,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY low 2036 at 7%",
+   "ours_raw": 512604.16,
+   "ours_printed_form": "$510,000",
+   "printed": "$510,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY central 2036 at 7%",
+   "ours_raw": 1098437.48,
+   "ours_printed_form": "$1,100,000",
+   "printed": "$1,100,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY high 2036 at 7%",
+   "ours_raw": 1672065.95,
+   "ours_printed_form": "$1,670,000",
+   "printed": "$1,670,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY low 2037 at 7%",
+   "ours_raw": 516704.99,
+   "ours_printed_form": "$520,000",
+   "printed": "$520,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY central 2037 at 7%",
+   "ours_raw": 1107224.98,
+   "ours_printed_form": "$1,110,000",
+   "printed": "$1,110,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY high 2037 at 7%",
+   "ours_raw": 1685442.48,
+   "ours_printed_form": "$1,690,000",
+   "printed": "$1,690,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY low 2038 at 7%",
+   "ours_raw": 520838.63,
+   "ours_printed_form": "$520,000",
+   "printed": "$520,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY central 2038 at 7%",
+   "ours_raw": 1116082.78,
+   "ours_printed_form": "$1,120,000",
+   "printed": "$1,120,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY high 2038 at 7%",
+   "ours_raw": 1698926.02,
+   "ours_printed_form": "$1,700,000",
+   "printed": "$1,700,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY low 2039 at 7%",
+   "ours_raw": 525005.34,
+   "ours_printed_form": "$530,000",
+   "printed": "$520,000",
+   "match": false
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY central 2039 at 7%",
+   "ours_raw": 1125011.45,
+   "ours_printed_form": "$1,130,000",
+   "printed": "$1,120,000",
+   "match": false
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY high 2039 at 7%",
+   "ours_raw": 1712517.42,
+   "ours_printed_form": "$1,710,000",
+   "printed": "$1,710,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY low 2040 at 7%",
+   "ours_raw": 529205.38,
+   "ours_printed_form": "$530,000",
+   "printed": "$530,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY central 2040 at 7%",
+   "ours_raw": 1134011.54,
+   "ours_printed_form": "$1,130,000",
+   "printed": "$1,130,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY high 2040 at 7%",
+   "ours_raw": 1726217.56,
+   "ours_printed_form": "$1,730,000",
+   "printed": "$1,730,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY low 2041 at 7%",
+   "ours_raw": 533439.03,
+   "ours_printed_form": "$530,000",
+   "printed": "$530,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY central 2041 at 7%",
+   "ours_raw": 1143083.63,
+   "ours_printed_form": "$1,140,000",
+   "printed": "$1,140,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY high 2041 at 7%",
+   "ours_raw": 1740027.3,
+   "ours_printed_form": "$1,740,000",
+   "printed": "$1,740,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY low 2042 at 7%",
+   "ours_raw": 537706.54,
+   "ours_printed_form": "$540,000",
+   "printed": "$540,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY central 2042 at 7%",
+   "ours_raw": 1152228.3,
+   "ours_printed_form": "$1,150,000",
+   "printed": "$1,150,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY high 2042 at 7%",
+   "ours_raw": 1753947.52,
+   "ours_printed_form": "$1,750,000",
+   "printed": "$1,750,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY low 2043 at 7%",
+   "ours_raw": 542008.19,
+   "ours_printed_form": "$540,000",
+   "printed": "$540,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY central 2043 at 7%",
+   "ours_raw": 1161446.13,
+   "ours_printed_form": "$1,160,000",
+   "printed": "$1,160,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY high 2043 at 7%",
+   "ours_raw": 1767979.1,
+   "ours_printed_form": "$1,770,000",
+   "printed": "$1,770,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY low 2044 at 7%",
+   "ours_raw": 546344.26,
+   "ours_printed_form": "$550,000",
+   "printed": "$550,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY central 2044 at 7%",
+   "ours_raw": 1170737.69,
+   "ours_printed_form": "$1,170,000",
+   "printed": "$1,170,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY high 2044 at 7%",
+   "ours_raw": 1782122.94,
+   "ours_printed_form": "$1,780,000",
+   "printed": "$1,780,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY low 2045 at 7%",
+   "ours_raw": 550715.01,
+   "ours_printed_form": "$550,000",
+   "printed": "$550,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY central 2045 at 7%",
+   "ours_raw": 1180103.6,
+   "ours_printed_form": "$1,180,000",
+   "printed": "$1,180,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY high 2045 at 7%",
+   "ours_raw": 1796379.92,
+   "ours_printed_form": "$1,800,000",
+   "printed": "$1,800,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY low 2046 at 7%",
+   "ours_raw": 555120.73,
+   "ours_printed_form": "$560,000",
+   "printed": "$560,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY central 2046 at 7%",
+   "ours_raw": 1189544.43,
+   "ours_printed_form": "$1,190,000",
+   "printed": "$1,190,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY high 2046 at 7%",
+   "ours_raw": 1810750.96,
+   "ours_printed_form": "$1,810,000",
+   "printed": "$1,810,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY low 2047 at 7%",
+   "ours_raw": 559561.7,
+   "ours_printed_form": "$560,000",
+   "printed": "$560,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY central 2047 at 7%",
+   "ours_raw": 1199060.78,
+   "ours_printed_form": "$1,200,000",
+   "printed": "$1,200,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY high 2047 at 7%",
+   "ours_raw": 1825236.97,
+   "ours_printed_form": "$1,830,000",
+   "printed": "$1,820,000",
+   "match": false
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY low 2048 at 7%",
+   "ours_raw": 564038.19,
+   "ours_printed_form": "$560,000",
+   "printed": "$560,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY central 2048 at 7%",
+   "ours_raw": 1208653.27,
+   "ours_printed_form": "$1,210,000",
+   "printed": "$1,210,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY high 2048 at 7%",
+   "ours_raw": 1839838.86,
+   "ours_printed_form": "$1,840,000",
+   "printed": "$1,840,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY low 2049 at 7%",
+   "ours_raw": 568550.5,
+   "ours_printed_form": "$570,000",
+   "printed": "$570,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY central 2049 at 7%",
+   "ours_raw": 1218322.49,
+   "ours_printed_form": "$1,220,000",
+   "printed": "$1,220,000",
+   "match": true
+  },
+  {
+   "table": "D.4b",
+   "item": "value per QALY high 2049 at 7%",
+   "ours_raw": 1854557.57,
+   "ours_printed_form": "$1,850,000",
+   "printed": "$1,850,000",
+   "match": true
+  },
+  {
+   "table": "D.5",
+   "item": "example net present value D.5",
+   "ours_raw": 5598729460.98,
+   "ours_printed_form": "$5.60 billion",
+   "printed": "$5.60 billion",
+   "match": true
+  },
+  {
+   "table": "D.6",
+   "item": "example net present value D.6",
+   "ours_raw": 5123630569.19,
+   "ours_printed_form": "$5.12 billion",
+   "printed": "$5.12 billion",
+   "match": true
+  },
+  {
+   "table": "D.7",
+   "item": "example net present value D.7",
+   "ours_raw": 2268056730.62,
+   "ours_printed_form": "$2.27 billion",
+   "printed": "$2.25 billion",
+   "match": false
+  },
+  {
+   "table": "D.8",
+   "item": "example net present value D.8",
+   "ours_raw": 28564946.23,
+   "ours_printed_form": "$28.6 million",
+   "printed": "$28.3 million",
+   "match": false
+  },
+  {
+   "table": "D.9",
+   "item": "example net present value D.9",
+   "ours_raw": 5627294407.21,
+   "ours_printed_form": "$5.63 billion",
+   "printed": "$5.63 billion",
+   "match": true
+  }
+ ]
+}

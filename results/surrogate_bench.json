@@ -1,0 +1,191 @@
+{
+ "generated": "2026-11-03 12:44:54",
+ "data": {
+  "nhanes_cycles": "1999-2010 (6 continuous cycles)",
+  "linkage": "NCHS 2019 public-use Linked Mortality Files, follow-up through 2019-12-31",
+  "n_records_linked_eligible": 33519,
+  "n_cohort": 27909,
+  "deaths_total_2019": 5689,
+  "deaths_within_10y": 3620,
+  "n_dev": 12720,
+  "n_val": 15189,
+  "dev_cycles": "1999-2004",
+  "val_cycles": "2005-2010",
+  "panel_features": [
+   "RIDAGEYR",
+   "sex",
+   "LBXCRP",
+   "LBDSALSI",
+   "LBDSBUSI",
+   "LBDSCASI",
+   "LBDSCHSI",
+   "LBDSCRSI",
+   "LBDSGBSI",
+   "LBDSGLSI",
+   "LBDSIRSI",
+   "LBDSPHSI",
+   "LBDSTBSI",
+   "LBDSTPSI",
+   "LBDSTRSI",
+   "LBDSUASI",
+   "LBXSAPSI",
+   "LBXSASSI",
+   "LBXSATSI",
+   "LBXSC3SI",
+   "LBXSCLSI",
+   "LBXSGTSI",
+   "LBXSKSI",
+   "LBXSLDSI",
+   "LBXSNASI",
+   "LBXSOSSI",
+   "LBDBANO",
+   "LBDEONO",
+   "LBDLYMNO",
+   "LBDMONO",
+   "LBDNENO",
+   "LBXBAPCT",
+   "LBXEOPCT",
+   "LBXHCT",
+   "LBXHGB",
+   "LBXLYPCT",
+   "LBXMC",
+   "LBXMCHSI",
+   "LBXMCVSI",
+   "LBXMOPCT",
+   "LBXMPSI",
+   "LBXNEPCT",
+   "LBXPLTSI",
+   "LBXRBCSI",
+   "LBXRDW",
+   "LBXWBCSI"
+  ],
+  "n_panel_features": 46
+ },
+ "reproduction": {
+  "phenoage_auc10": {
+   "published_value": 0.88,
+   "reproduced_value": 0.8824,
+   "abs_diff": 0.0024,
+   "pct_diff": 0.27,
+   "n": 25551,
+   "source_citation": "Liu Z et al. PLoS Med 2018;15(12):e1002718, Fig 7",
+   "verified_date": "2026-11-03"
+  },
+  "age_auc10": {
+   "published_value": 0.86,
+   "reproduced_value": 0.8603,
+   "abs_diff": 0.0003,
+   "source_citation": "Liu 2018 Fig 7",
+   "verified_date": "2026-11-03"
+  },
+  "phenoage_hr_per_year_adj_age_sex": {
+   "published_value": 1.09,
+   "published_ci": [
+    1.08,
+    1.1
+   ],
+   "reproduced_value": 1.0498,
+   "reproduced_ci95": [
+    1.0474,
+    1.0522
+   ],
+   "abs_diff": 0.0402,
+   "method": "Cox (Breslow) on 2019 follow-up; Liu used Gompertz on follow-up through 2011",
+   "source_citation": "Liu 2018 Table 1",
+   "verified_date": "2026-11-03"
+  }
+ },
+ "arms_validation": {
+  "A0_age": {
+   "c_index": 0.8415139317512512,
+   "auc10_known": 0.8626874691488612
+  },
+  "A1_phenoage": {
+   "c_index": 0.8639675974845886,
+   "auc10_known": 0.8848295606797827
+  },
+  "A2_logit_panel": {
+   "c_index": 0.8743412494659424,
+   "auc10_known": 0.8951681827797758
+  },
+  "A3_gbm9": {
+   "c_index": 0.8717780113220215,
+   "auc10_known": 0.8927560350703994,
+   "c_index_per_seed": [
+    0.8698591589927673,
+    0.8696937561035156,
+    0.8701626062393188,
+    0.8704169988632202,
+    0.8702298402786255
+   ],
+   "c_index_seed_mean": 0.8700724720954895
+  },
+  "A4_gbm_panel": {
+   "c_index": 0.8769125938415527,
+   "auc10_known": 0.8979090332134546,
+   "c_index_per_seed": [
+    0.8760343790054321,
+    0.8737428784370422,
+    0.8739991188049316,
+    0.8756057620048523,
+    0.8742942214012146
+   ],
+   "c_index_seed_mean": 0.8747352719306946
+  }
+ },
+ "deltas_vs_phenoage": {
+  "A0_age_minus_A1_phenoage": {
+   "delta": -0.022453665733337402,
+   "ci95_low": -0.026891757547855378,
+   "ci95_high": -0.01794120520353317,
+   "n": 15189,
+   "events_10y": 1956,
+   "seeds": "n/a \u2014 deterministic arm",
+   "method": "paired bootstrap, 1000 resamples of validation participants; Harrell C, 10-year horizon",
+   "separates": true
+  },
+  "A2_logit_panel_minus_A1_phenoage": {
+   "delta": 0.01037365198135376,
+   "ci95_low": 0.007819141447544097,
+   "ci95_high": 0.012839490175247192,
+   "n": 15189,
+   "events_10y": 1956,
+   "seeds": "n/a \u2014 deterministic arm",
+   "method": "paired bootstrap, 1000 resamples of validation participants; Harrell C, 10-year horizon",
+   "separates": true
+  },
+  "A3_gbm9_minus_A1_phenoage": {
+   "delta": 0.006104874610900923,
+   "ci95_low": 0.00528494268655777,
+   "ci95_high": 0.010616588592529296,
+   "n": 15189,
+   "events_10y": 1956,
+   "seeds": [
+    11,
+    23,
+    37,
+    41,
+    59
+   ],
+   "method": "paired bootstrap, 1000 resamples of validation participants; Harrell C, 10-year horizon",
+   "separates": true
+  },
+  "A4_gbm_panel_minus_A1_phenoage": {
+   "delta": 0.010767674446105935,
+   "ci95_low": 0.00983792096376419,
+   "ci95_high": 0.016080063581466675,
+   "n": 15189,
+   "events_10y": 1956,
+   "seeds": [
+    11,
+    23,
+    37,
+    41,
+    59
+   ],
+   "method": "paired bootstrap, 1000 resamples of validation participants; Harrell C, 10-year horizon",
+   "separates": true
+  }
+ },
+ "runtime_s": 1293.1
+}

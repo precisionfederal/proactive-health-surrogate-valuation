@@ -1,0 +1,18 @@
+{
+ "source_citation": "Arias E, Xu J. United States Life Tables, 2019. National Vital Statistics Reports 70(19), March 22, 2022; Table 1",
+ "verified_date": "2026-11-03",
+ "e0": {
+  "published_value": 78.8,
+  "published_table_value": 78.8482,
+  "reproduced_value": 78.8577,
+  "abs_diff": 0.0095,
+  "pct_diff": 0.012
+ },
+ "e65": {
+  "published_table_value": 19.5903,
+  "reproduced_value": 19.6018,
+  "abs_diff": 0.0115
+ },
+ "interval": "n/a \u2014 deterministic computation on the printed qx column (101 ages)",
+ "conventions": "a0=0.10; ax=0.5 ages 1-99; 100+ closed with constant hazard -ln(1-q99)"
+}

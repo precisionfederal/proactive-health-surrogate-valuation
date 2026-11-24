@@ -1,0 +1,20 @@
+{
+ "generated": "2026-11-03 13:18:40",
+ "pte_ours": 0.26964141512887574,
+ "pte_phenoage": 0.164707734396059,
+ "delta": 0.10493368073281673,
+ "ci95_low": 0.05008587424543891,
+ "ci95_high": 0.16814469723273207,
+ "n": 11377,
+ "n_boot": 200,
+ "seeds": [
+  11,
+  23,
+  37,
+  41,
+  59
+ ],
+ "method": "paired bootstrap (identical resamples) of Freedman PTE difference; Cox 10-year, age and sex adjusted",
+ "separates": true,
+ "runtime_s": 472.3
+}
